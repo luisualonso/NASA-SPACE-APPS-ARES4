@@ -7,6 +7,6 @@ Juego educativo para niños de 7 a 12 años: administra una base lunar con datos
 - data/fuentes.json: lista de fuentes
 
 ## Cómo actualizar los datos
-1. $env:NASA_API_KEY="GNF6zjKW8czgN9QHggNHLQHn9pwQMhPtNGdQrBth"
+1. $env:NASA_API_KEY="tu_llave"
 2. python data.py
 3. python curar_datos.py
