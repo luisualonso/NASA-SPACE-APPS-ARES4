@@ -1,4 +1,4 @@
-# Base Artemis Junior
+# Base Ares Junior
 Juego educativo para niños de 7 a 12 años: administra una base lunar con datos reales de la NASA.
 
 ## Datos
