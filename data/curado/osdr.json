@@ -60,18 +60,6 @@
     "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-195"
   },
   {
-    "id": "OSD-342",
-    "tema": "músculos",
-    "titulo": "Targeting myostatin/activin A protects against skeletal muscle and bone loss during spaceflight [plasma proteomics]",
-    "organismo": "",
-    "mision": "SpaceX-19",
-    "descripcion_original": "Among the physiological consequences of extended spaceflight are loss of skeletal muscle and bone mass. One signaling pathway that plays an important role in maintaining muscle and bone homeostasis is that regulated by the secreted signaling proteins, myostatin (MSTN) and activin A. Here, we used both genetic and pharmacological approaches to investigate the effect of targeting MSTN/activin A signaling in mice that were sent to the International Space Station. Wild type mice lost significant muscle and bone mass during the 33 d spent in microgravity. Muscle weights of Mstn -/- mice, which are ",
-    "texto_nino": "",
-    "aparece_cuando": "salud_baja",
-    "fuente": "NASA OSDR",
-    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-342"
-  },
-  {
     "id": "OSD-73",
     "tema": "radiación",
     "titulo": "Transcriptome Profiles in Normal Human Bronchial Epithelial Cells after Exposure to gamma-rays and different HZE particles",
@@ -142,18 +130,6 @@
     "aparece_cuando": "invernadero",
     "fuente": "NASA OSDR",
     "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-772"
-  },
-  {
-    "id": "OSD-195",
-    "tema": "sueño",
-    "titulo": "Effects of 21 days of bedrest on human skeletal muscle gene expression",
-    "organismo": "",
-    "mision": "",
-    "descripcion_original": "The present study concerns the effects of 21 days of sustained recumbence (bedrest) on skeletal muscle gene expression. 14 male subjects participated in normoxic bedrest (NBR) with muscle unloading, for 21 days, this is a substudy of tha PlanHab-study which apart from normoxic bedrest also involved hypoxic bedrest and hypoxic ambulation. Throughout both bedrest interventions, each subject remained in a horizontal position at all times. He was allowed one pillow for the head and to occasionally lean on an elbow while eating or being transferred to a gurney. Muscular exercise was prohibited. Dur",
-    "texto_nino": "",
-    "aparece_cuando": "fin_de_dia",
-    "fuente": "NASA OSDR",
-    "url": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-195"
   },
   {
     "id": "OSD-32",

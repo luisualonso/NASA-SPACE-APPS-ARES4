@@ -1,0 +1,11 @@
+{
+  "desde": "2026-10-15",
+  "hasta": "2026-11-14",
+  "cme": 90,
+  "cme_rapidas": 1,
+  "velocidad_media_km_s": 456,
+  "sep": 0,
+  "gst": 1,
+  "nivel": "activo",
+  "fuente": "NASA DONKI (CCMC)"
+}

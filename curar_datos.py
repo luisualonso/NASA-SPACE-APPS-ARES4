@@ -43,6 +43,17 @@ def velocidad_cme(ev):
     return None
 
 
+UA_KM = 1.496e8          # distancia Sol-Tierra/Luna
+DANO = {"baja": -10, "media": -20, "alta": -35}
+
+
+def dias_de_aviso(vel):
+    """Tiempo de viaje de la CME = distancia / velocidad (aprox.; las CME se frenan en el camino)."""
+    if not vel:
+        return 2
+    return max(1, min(4, round(UA_KM / vel / 86400)))
+
+
 def curar_donki():
     eventos = []
     for ev in leer("donki_cme_historico.json") or []:
@@ -52,8 +63,8 @@ def curar_donki():
             "tipo": "CME",
             "fecha": (ev.get("startTime") or "")[:10],
             "velocidad_km_s": vel,
-            "intensidad": "alta" if vel and vel >= 1000 else "media" if vel and vel >= 500 else "baja",
-            "efecto_juego": {"salud": -10, "dias_aviso": 2},
+            "intensidad": (inten := "alta" if vel and vel >= 1000 else "media" if vel and vel >= 500 else "baja"),
+            "efecto_juego": {"salud": DANO[inten], "dias_aviso": dias_de_aviso(vel)},
             "texto_nino": "",
             "fuente": "NASA DONKI (CCMC)",
             "url": ev.get("link"),
@@ -64,7 +75,7 @@ def curar_donki():
             "tipo": "SEP",
             "fecha": (ev.get("eventTime") or "")[:10],
             "intensidad": "alta",
-            "efecto_juego": {"salud": -15, "dias_aviso": 0},
+            "efecto_juego": {"salud": -25, "dias_aviso": 0},
             "texto_nino": "",
             "fuente": "NASA DONKI (CCMC)",
             "url": ev.get("link"),
@@ -78,13 +89,35 @@ def curar_donki():
             "fecha": (ev.get("startTime") or "")[:10],
             "kp_max": kp,
             "intensidad": "alta" if kp and kp >= 8 else "media" if kp and kp >= 6 else "baja",
-            "efecto_juego": {"comunicacion_bloqueada_dias": 1},
+            "efecto_juego": {"comunicacion_bloqueada_dias": 2 if kp and kp >= 8 else 1},
             "texto_nino": "",
             "fuente": "NASA DONKI (CCMC)",
             "url": ev.get("link"),
         })
     eventos.sort(key=lambda e: e["fecha"])
     escribir("donki.json", eventos)
+
+
+def curar_clima_reciente():
+    """Resumen de los últimos 30 días para la pantalla de inicio (NO es en vivo: tiene fecha de descarga)."""
+    cme = leer("donki_cme_ultimos30dias.json") or []
+    sep = leer("donki_sep_ultimos30dias.json") or []
+    gst = leer("donki_gst_ultimos30dias.json") or []
+    vels = [v for v in (velocidad_cme(e) for e in cme) if v]
+    rapidas = sum(v >= 1000 for v in vels)
+    nivel = "extremo" if sep or rapidas >= 5 else "activo" if rapidas or gst else "tranquilo"
+    fechas = sorted((e.get("startTime") or "")[:10] for e in cme if e.get("startTime"))
+    escribir("clima_reciente.json", {
+        "desde": fechas[0] if fechas else None,
+        "hasta": fechas[-1] if fechas else None,
+        "cme": len(cme),
+        "cme_rapidas": rapidas,
+        "velocidad_media_km_s": round(sum(vels) / len(vels)) if vels else None,
+        "sep": len(sep),
+        "gst": len(gst),
+        "nivel": nivel,
+        "fuente": "NASA DONKI (CCMC)",
+    })
 
 
 def curar_apod():
@@ -113,6 +146,7 @@ def curar_osdr():
         "immune": ("defensas", "salud_baja"),
     }
     estudios = []
+    vistos = set()
     for archivo, (tema, cuando) in temas.items():
         datos = leer(f"osdr_{archivo}.json")
         if not datos:
@@ -121,6 +155,9 @@ def curar_osdr():
         for hit in hits:
             s = hit.get("_source", {})
             acc = s.get("Accession", "")
+            if acc in vistos:
+                continue
+            vistos.add(acc)
             mision = s.get("Mission") or {}
             estudios.append({
                 "id": acc,
@@ -208,7 +245,7 @@ def curar_radlab():
 
 
 if __name__ == "__main__":
-    print("DONKI");     curar_donki()
+    print("DONKI");     curar_donki(); curar_clima_reciente()
     print("OSDR");      curar_osdr()
     print("RadLab");    curar_radlab()
     print("APOD");      curar_apod()
