@@ -397,7 +397,7 @@ $("m-creditos").onclick = () => {
   ui.abrirModal("CRÉDITOS", [
     "Misión Ares: Supervivencia fue creado por el equipo ARES4 para el NASA Space Apps Challenge 2026, reto \"Junior Astronaut Mission Trainer\".",
     "Datos: NASA DONKI (clima espacial), NASA OSDR (biología espacial) y RadLab (radiación en la Estación Espacial).",
-    "Arte, diseño y programación: equipo ARES4, con apoyo de herramientas de inteligencia artificial.",
+    "Arte, diseño y programación: equipo ARES4",
     "Este juego no es un producto oficial de la NASA.",
   ]);
 };
