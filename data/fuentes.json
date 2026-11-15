@@ -1,0 +1,104 @@
+[
+  {
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://api.nasa.gov/DONKI/CME?startDate=2024-05-01&endDate=2024-05-31&api_key=TU_LLAVE",
+    "consultado": "2026-11-15T02:32:19+00:00",
+    "archivo": "data\\crudo\\donki_cme_historico.json"
+  },
+  {
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://api.nasa.gov/DONKI/CME?startDate=2026-10-15&endDate=2026-11-14&api_key=TU_LLAVE",
+    "consultado": "2026-11-15T02:32:20+00:00",
+    "archivo": "data\\crudo\\donki_cme_ultimos30dias.json"
+  },
+  {
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://api.nasa.gov/DONKI/SEP?startDate=2024-05-01&endDate=2024-05-31&api_key=TU_LLAVE",
+    "consultado": "2026-11-15T02:35:06+00:00",
+    "archivo": "data\\crudo\\donki_sep_historico.json"
+  },
+  {
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://api.nasa.gov/DONKI/SEP?startDate=2026-10-15&endDate=2026-11-14&api_key=TU_LLAVE",
+    "consultado": "2026-11-15T02:35:07+00:00",
+    "archivo": "data\\crudo\\donki_sep_ultimos30dias.json"
+  },
+  {
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://api.nasa.gov/DONKI/GST?startDate=2024-05-01&endDate=2024-05-31&api_key=TU_LLAVE",
+    "consultado": "2026-11-15T02:35:07+00:00",
+    "archivo": "data\\crudo\\donki_gst_historico.json"
+  },
+  {
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://api.nasa.gov/DONKI/GST?startDate=2026-10-15&endDate=2026-11-14&api_key=TU_LLAVE",
+    "consultado": "2026-11-15T02:35:08+00:00",
+    "archivo": "data\\crudo\\donki_gst_ultimos30dias.json"
+  },
+  {
+    "fuente": "NASA OSDR",
+    "url": "https://osdr.nasa.gov/osdr/data/search?term=bone%20loss&type=cgene&size=10",
+    "consultado": "2026-11-15T02:35:09+00:00",
+    "archivo": "data\\crudo\\osdr_bone_loss.json"
+  },
+  {
+    "fuente": "NASA OSDR",
+    "url": "https://osdr.nasa.gov/osdr/data/search?term=muscle&type=cgene&size=10",
+    "consultado": "2026-11-15T02:35:10+00:00",
+    "archivo": "data\\crudo\\osdr_muscle.json"
+  },
+  {
+    "fuente": "NASA OSDR",
+    "url": "https://osdr.nasa.gov/osdr/data/search?term=radiation&type=cgene&size=10",
+    "consultado": "2026-11-15T02:35:10+00:00",
+    "archivo": "data\\crudo\\osdr_radiation.json"
+  },
+  {
+    "fuente": "NASA OSDR",
+    "url": "https://osdr.nasa.gov/osdr/data/search?term=plant&type=cgene&size=10",
+    "consultado": "2026-11-15T02:35:11+00:00",
+    "archivo": "data\\crudo\\osdr_plant.json"
+  },
+  {
+    "fuente": "NASA OSDR",
+    "url": "https://osdr.nasa.gov/osdr/data/search?term=sleep&type=cgene&size=10",
+    "consultado": "2026-11-15T02:35:11+00:00",
+    "archivo": "data\\crudo\\osdr_sleep.json"
+  },
+  {
+    "fuente": "NASA OSDR",
+    "url": "https://osdr.nasa.gov/osdr/data/search?term=immune&type=cgene&size=10",
+    "consultado": "2026-11-15T02:35:12+00:00",
+    "archivo": "data\\crudo\\osdr_immune.json"
+  },
+  {
+    "fuente": "NASA OSDR RadLab",
+    "url": "https://visualization.osdr.nasa.gov/radlab/api/?spacecraft=ISS&instrument=DosTel&timestamp%3E=2022-04-01T23%3A00&timestamp%3C2022-04-02T01%3A05&absorbed_dose_rate&format=json",
+    "consultado": "2026-11-15T02:35:12+00:00",
+    "archivo": "data\\crudo\\radlab_iss_dostel.json"
+  },
+  {
+    "fuente": "NASA APOD",
+    "url": "https://api.nasa.gov/planetary/apod?count=8&api_key=TU_LLAVE",
+    "consultado": "2026-11-15T02:35:26+00:00",
+    "archivo": "data\\crudo\\apod.json"
+  },
+  {
+    "fuente": "NASA Mars Trek",
+    "url": "https://trek.nasa.gov/mars/",
+    "consultado": "manual",
+    "archivo": null
+  },
+  {
+    "fuente": "CSA: Producción de alimentos en la Luna",
+    "url": "https://www.asc-csa.gc.ca/eng/youth-educators/toolkits/food-production/",
+    "consultado": "manual",
+    "archivo": null
+  },
+  {
+    "fuente": "CSA: Recursos STEM",
+    "url": "https://www.asc-csa.gc.ca/eng/youth-educators/resources-stem-and-youth-organizations.asp",
+    "consultado": "manual",
+    "archivo": null
+  }
+]

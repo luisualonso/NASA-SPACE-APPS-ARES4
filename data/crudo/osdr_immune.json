@@ -1,0 +1,648 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 74,
+    "max_score": 4.408449,
+    "hits": [
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "29_6g4QB28eYt3lGK7XZ",
+        "_score": 4.408449,
+        "_source": {
+          "Space Program": "",
+          "Flight Program": "",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Study Protocol Description": "Total RNA was isolated from mock-treated and irradiated cell pellets using the Qiagen RNeasy kit (217004, Qiagen), according to manufacturer's instructions.     Total RNA was amplified using the Illumina TotalPrep RNA amplification kit with biotin UTP (Enzo) labeling. The Illumina TotalPrep RNA amplification kit uses T7 oligo(dT) primer to generate single-stranded cDNA followed by a second strand synthesis to generate double-stranded cDNA which is then column purified. In vitro transcription was done to synthesize biotin-labeled cRNA using T7 RNA polymerase. The cRNA was then column purified and then checked for size and yield using the Bio-Rad Experion system. 1 ug of cRNA was hybridized for each array using standard Illumina protocols with streptavidin-Cy3 (Amersham) being used for detection.     Samples were processed and hybridized to Illumina Human HT12v4 arrays (Illumina, Inc.) using standard Illumina protocols.     The slides were scanned on an Illumina BeadStation (Illumina, Inc.; Genomics Core, UT Southwestern Medical Center).     The two-step normalization procedure and the Associative analysis functions are implemented in MatLab (Mathworks, MA) and available from authors upon request. These algorithms are also obtainable from an R package diffGeneAnalysis, available as a part of Bioconductor packages (http://www.bioconductor.org/packages/2.5/bioc/html/diffGeneAnalysis.html).\n\nMethods for data normalization and analysis are based on the use of internal standards (Rocke and Durbin 2001) that characterize some aspects of the system's behavior, such as technical variability, as presented elsewhere (Dozmorov and Centola 2003; Dozmorov and Lefkovits 2009). The comparison of these methods with some other normalization and analysis procedures was presented in (Dozmorov, ea, 2010).     DNA lesions and replication stress were induced by exposing the cells to high-LET iron (Fe) particles generated at the NASA Space Radiation Laboratory in Brookhaven National Laboratory, Long Island, NY. The energy of the used Fe-particles was 1 GeV/nucleon and the dose rate ranged from 50 to 200 cGy/min. The linear energy transfer (LET) of the Fe-particles was 150 keV/μm. The residual ranges of the beams were determined before each experiment and used to calculate the track-averaged LET values.     HT1080 cells were grown in Minimum Essential Medium (MEM) alpha supplemented with 10% fetal bovine serum, 100 mg/ml streptomycin sulfate, and 100 U/ml penicillin.\n\nHT1080 cells were transfected with a mammalian expression plasmid containing tetracycline-inducible Rad51 shRNA and selected in presence of hygromycin (75 ug/ml). To down-regulate RAD51 protein levels, cells were cultured in the presence of doxycycline (DOX, 1ug/mL) for 72 h. After 72h, WT and sh RAD51 HT1080 cells were exposed to 1 Gy high-LET iron (Fe) particles generated at the NASA Space Radiation Laboratory in Brookhaven National Laboratory, Long Island, NY. The energy of the used Fe-particles was 1 GeV/nucleon and the dose rate ranged from 50 to 200 cGy/min. The linear energy transfer (LET) of the Fe-particles was 150 keV/um. Cell pellets were collected from mock and irradiated cells at different time intervals (4h and 8h) and stored at -80C until use.",
+          "Material Type": "Cells",
+          "Study Identifier": "OSD-130",
+          "Study Person": {
+            "First Name": "Souparno",
+            "Middle Initials": "",
+            "Last Name": "Bhattacharya"
+          },
+          "ESA Acronym": "",
+          "Acknowledgments": "We thank Dr Shiaw-Yih Lin (MD Anderson Cancer Center) for providing the MCF10A cell line stably expressing scrambled and Rad51 shRNA. We thank, Drs Peter Guida, Adam Rusek, Mike Sivertz, Chiara La Tessa, Eiichiro Mori and other members of the NASA Space Radiation Laboratory, NY for their help with heavy-ion radiation.",
+          "Managing NASA Center": "",
+          "Data Source Type": "cgene",
+          "Mission": {
+            "Start Date": "",
+            "End Date": "",
+            "Name": ""
+          },
+          "Study Grant Number": "",
+          "Experiment Platform": "",
+          "Study Factor Name": "Ionizing Radiation     Time of Sample Collection After Treatment     Genotype",
+          "Study Publication Author List": "Bhattacharya S  Srinivasan K  Abdisalaam S  Su F  Raj P  Dozmorov I  Mishra R  Wakeland EK  Ghose S  Mukherjee S  Asaithamby A.",
+          "Study Assay Technology Platform": "Illumina HumanHT-12 V4.0 expression beadchip",
+          "Authoritative Source URL": "OSD-130/",
+          "Project Identifier": "Heavy_Ion_HZE_Irradiation, High_Dose_Irradiation, High_LET_Irradiation",
+          "thumbnail": "/geode-py/ws/studies/OSD-130/image",
+          "Project Title": "",
+          "Study Public Release Date": 1487376000.0,
+          "Project Link": "",
+          "Study Publication Title": "RAD51 interconnects between DNA replication, DNA repair and immunity.",
+          "organism": "Homo sapiens",
+          "Accession": "OSD-130",
+          "Study Assay Technology Type": "DNA microarray",
+          "Study Title": "RAD51 Interconnects Between DNA Replication, DNA Repair and Immunity",
+          "Study Protocol Type": "RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation     acute     sample collection",
+          "Project Type": "Ground Study",
+          "Study Funding Agency": "National Aeronautics and Space Administration [NNX13AD57G and NNX15AE06G]; Cancer Prevention and Research Institute of Texas [RP160520]; National Institute of Health [R01AG053341] to A.A",
+          "Study Factor Type": "ionizing radiation     Time of Sample Collection After Treatment     Genotype",
+          "Factor Value": "",
+          "Study Description": "RAD51, a multifunctional protein, plays a central role in DNA replication and homologous recombination repair, and is known to be involved in cancer development. We identified a novel role for RAD51 in innate immune response signaling. Defects in RAD51 lead to the accumulation of self-DNA in the cytoplasm, triggering a STING-mediated innate immune response after replication stress and DNA damage. Our data suggest that in addition to playing roles in homologous recombination-mediated DNA double-strand break repair and replication fork processing, RAD51 is also implicated in the suppression of innate immunity. Thus, our study reveals a previously uncharacterized role of RAD51 in initiating immune signaling, placing it at the hub of new interconnections between DNA replication, DNA repair, and immunity. Overall design Gene expression analysis of WT and sh RAD51 HT1080 cells was carried out before and after 1 Gy of high LET Fe particle radiation.",
+          "Study Protocol Name": "RNA extraction     labeling     nucleic acid hybridization     data collection     normalization data transformation     irradiation protocol     sample collection",
+          "Characteristics": "",
+          "Parameter Value": "",
+          "Identifiers": "GLDS-130",
+          "Data Source Accession": "GSE95050"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>",
+            "We identified a novel role for RAD51 in innate <em>immune</em> response signaling.",
+            "in RAD51 lead to the accumulation of self-DNA in the cytoplasm, triggering a STING-mediated innate <em>immune</em>",
+            "Thus, our study reveals a previously uncharacterized role of RAD51 in initiating <em>immune</em> signaling, placing"
+          ]
+        }
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "7N_6g4QB28eYt3lGLbUw",
+        "_score": 4.3809595,
+        "_source": {
+          "Space Program": "NASA, DoD Space Test Program",
+          "Flight Program": "Space Transportation System (STS)",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Study Protocol Description": "Human dermal microvascular endothelial cells (HMVEC-dBL) (Lonza, VA) were maintained in EGM-2MV growth medium (Lonza, VA) containing growth factors, antimicrobials, cytokines and 5% FBS (all purchased from Lonza, VA) at 37 C in a humidified atmosphere containing 5% CO2.     Exposures of 100 g/ml LPS for 4 hr and 8 hr.     The absorbed dose from ionizing radiation received by the flight specimens was estimated using TLD passive dosimeters located in the middeck of the space shuttle, where the payload was located. More specifically, we computed the average between three dosimeters (DLOC1, DLOC2, and DLOC3) for the mission and we divided it by the total duration of the mission to estimate the average absorbed dose rate in mGy/day. This dose rate did not include any shielding effects from the hardware where the specimens resided. The total absorbed dose in water was then computed by simply multiplying the average dose rate with the duration of the experiment. The duration of the experiment was defined as the time in space during which the specimen was “living”. Once the specimen was frozen or fixed, the experiment was considered stopped. A table with these detailed computations for all space shuttle datasets is available on GeneLab at https://genelab.nasa.gov/environmental/radiation. The ground samples were not assessed for radiation exposure.     We extracted mRNA and miRNA from the RLT solution using the AllPrep DNA/RNA extraction kit (Qiagen, MD) and from the TrizolTM portion following the manufacturer's protocols.     We labeled 12.5 ng amplified RNA and the same amount of reference RNA with Cy-5 and Cy-3 dyes, respectively.     Samples were hybridized to Agilent-014850 4x44K slides and incubated for 16 h at 55 C. A protocol with a series of washes was carried out.     The slides were scanned using Agilent Technologies Scanner G2505C US09493743 and feature extracted (software v. 10.7, Agilent, Inc, CA).     We processed the microarray mRNA data set by heuristic statistical manipulations accompanied by a systematic selection and rejection scheme. We performed pair-wise moderated t-test (p less than 0.01), a recommended routine for small sample size enabling to deliver maximum confidence in the analyses. ID_REF equals  VALUE equals Normalized Cy5/Cy3 signal (p greater than 0.05 from the assay background)",
+          "Material Type": "Cells     reference RNA",
+          "Study Identifier": "OSD-54",
+          "Study Person": {
+            "First Name": "Meskerem Marti Rasha Allison Seid Nabarun Aarti Stacy",
+            "Middle Initials": " A",
+            "Last Name": "Jibitu Jett Hammamieh Hoke Muhie Chakraborty Gautam Miller"
+          },
+          "ESA Acronym": "",
+          "Acknowledgments": "",
+          "Managing NASA Center": "",
+          "Data Source Type": "cgene",
+          "Mission": {
+            "Start Date": "8-Jul-11",
+            "End Date": "21-Jul-11",
+            "Name": "STS-135"
+          },
+          "Study Grant Number": "",
+          "Experiment Platform": "Cell Culture Module (CCM)",
+          "Study Factor Name": "Spaceflight     Treatment     Time",
+          "Study Publication Author List": "Chakraborty N  Gautam A  Muhie S  Miller SA  Jett M  Hammamieh R.",
+          "Study Assay Technology Platform": "Agilent",
+          "Authoritative Source URL": "OSD-54/",
+          "Project Identifier": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-54/image",
+          "Project Title": "",
+          "Study Public Release Date": 0,
+          "Project Link": "",
+          "Study Publication Title": "An integrated omics analysis: impact of microgravity on host response to lipopolysaccharide in vitro",
+          "organism": "Homo sapiens",
+          "Accession": "OSD-54",
+          "Study Assay Technology Type": "DNA microarray",
+          "Study Title": "Immune responses to the in vitro LPS assault engineered in the spaceflight multi-omics study",
+          "Study Protocol Type": "growth protocol     sample treatment protocol     radiation dosimetry protocol     nucleic acid extraction protocol     labelling protocol     hybridization protocol     array scanning protocol     normalization data transformation protocol",
+          "Project Type": "Spaceflight Study",
+          "Study Funding Agency": "U.S. Dept. of Defense, NASA",
+          "Study Factor Type": "Space Flight     treatment     time",
+          "Factor Value": "",
+          "Study Description": "Microgravity alters the immune response to in vitro LPS assault engineered in spaceflight: A multi-omics study Microgravity can facilitate creation of a potent environment for opportunistic infection by augmenting virulence and suppressing the host defense. Presumably, extraterrestrial infection may trigger potentially novel bionetworks different from the terrestrial equivalent, which could only be probed by investigating the host-pathogen relationship with minimum terrestrial bias. Towards this objective, we strategically engineered a cell culture module equipped with a feedback controlled semi-automated platform to expose human endothelial cells to lipopolysaccharide (LPS). The assay was carried out in the STS-135 space shuttle, and a concurrent ground study constituted the baseline. Transcriptomic investigation revealed an immune blunting in microgravity; Lbp, MyD88 and MD-2 failed to encode proteins responsible for early LPS uptake. Longer exposure results implied that there was a delayed response, potentially ineffectual in preventing pathogens from opportunistically modulating the infection network. Lack of recruitment of growth factors and a debilitated apoptosome supported this potential explanation. Certain cytokines, such as IL-6 and IL-8, surged in response to LPS insult in microgravity. Contrasting expressions of B2M, TIMP-1 and VEGRs suggested impaired pro-survival adaptation and healing mechanisms. The susceptibility of oxidative stress and immune regulation to microgravity compelled further investigation of the respective microRNA modulators such as miR-200a and miR-146b. These miRNAs were expressed differently in response to LPS assaults in different gravitational limits. In conclusion, despite a serious drawback attributed to the small sample size, we delineated some of the important aspects of the extraterrestrial etiology; more comprehensive follow up studies are warranted. Present study though compromised by the small sample size was able to shade lights on several aspects of immunological responses to the endotoxic assault mediated by uG. Implementing the host-pathogen interactions in the spaceflight and subsequently lysing the cells onboard presented the critical distinguishing features of the present study from the past reports. We identified the CCM of Tissue Genesis, Inc., HI as the suitable hardware system to carry out the experiment in the spaceflight. CCM is an automated, feedback controlled module that can concurrently support 24 bioreactors following protocols exclusively programmed for individual bioreactor. For this experiment we use samples EA41, EA 47, EA45, and EA155 that were exposed to LPS for 4 hours. Samples EA123, EA165, EA127, EA126 were exposed to LPS for 8Hrs. Samples EA33, EA 125, EA79 and EA 39 were controls in this experiment.",
+          "Study Protocol Name": "P-GSE54213-3     P-GSE54213-2     Radiation Dosimetry     P-GSE54213-4     P-GSE54213-5     P-GSE54213-6     P-GSE54213-7     P-GSE54213-1",
+          "Characteristics": "",
+          "Parameter Value": "",
+          "Identifiers": "GLDS-54",
+          "Data Source Accession": "E-GEOD-54213"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>",
+            "<em>Immune</em> responses to the in vitro LPS assault engineered in the spaceflight multi-omics study",
+            "Microgravity alters the <em>immune</em> response to in vitro LPS assault engineered in spaceflight: A multi-omics",
+            "Transcriptomic investigation revealed an <em>immune</em> blunting in microgravity; Lbp, MyD88 and MD-2 failed",
+            "The susceptibility of oxidative stress and <em>immune</em> regulation to microgravity compelled further investigation"
+          ]
+        }
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "it_6g4QB28eYt3lGObYj",
+        "_score": 4.3384624,
+        "_source": {
+          "Authoritative Source URL": "OSD-278/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "02/11/2015",
+            "Start Date": "01/10/2015",
+            "Name": "SpaceX-5"
+          },
+          "Material Type": "Whole Organism",
+          "Project Identifier": "FFL01",
+          "Accession": "OSD-278",
+          "Identifiers": "GLDS-278",
+          "Study Identifier": "OSD-278",
+          "Study Protocol Name": "growth protocol     treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "We would like to thank Matthew Lera (M.L.), Amy Gresser (A.G.) and Kevin Martin (K.M.) for spaceflight project support",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Gilbert Torres Clemens Hateley Hosamani Wade Bhattacharya",
+            "Middle Initials": "",
+            "First Name": "Rachel Medaya Rachel Shannon Ravikumar William Sharmila"
+          },
+          "Study Protocol Type": "growth protocol     sample treatment protocol     sample collection     nucleic acid extraction     library construction     nucleic acid sequencing     data transformation     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+          "Study Factor Type": "Space Flight     infection",
+          "Study Public Release Date": 1569628800.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-278/image",
+          "Study Factor Name": "Spaceflight     Infection",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE138116",
+          "Project Title": "",
+          "Study Funding Agency": "NASA’s Space Life and Physical Sciences Research Program (SLPSRA) for the following grants to S.B.: NNX13AN38G and NNX15AB42G",
+          "Study Protocol Description": "The hardware used in this study was the FIT (Fly Immunity and Tumors) cassette and changeout platform, as described in our previous Drosophila experiments on the ISS. Food trays were prepared using the methods described below, and stored in a cargo transfer bag (CTB) at 4 C for launch. Serratia marcescens Db11 was obtained from the University of Minnesota C. elegans stock center. To prepare for the spaceflight experiment, the Db11 strain was grown for 20 h in liquid LB broth with 100  ug/mL streptomycin at 37 C and then diluted to an OD600 of 0.100 in PBS. Next, 100  uL of the diluent was spread onto the surface of two trays containing 2 mL of solid semi-defined fly food media containing 4% Brewer’s yeast (Redstar), 6% glucose, 3% sucrose, 2% yeast extract, 2% peptone, 1% agar, 0.05% magnesium sulfate heptahydrate, 0.05% calcium chloride dihydrate (Sigma), 0.5% of blue food dye (Smart and Final), 0.001% p-hydroxybenzoate, and 0.6% of propionic acid (Sigma) dissolved in water. Similarly, we prepared two additional trays (Ground 1 and Ground 2) from the same source sample. These two trays were grown in the same FIT hardware on the ground, inside an incubator (Percival model DR36VL), which was programmed to match the gas composition, temperature, and humidity profiles measured during the flight. After preparing the bacterial sample trays for flight, they were placed into plastic bags and stored at 4 C, then sent to the ISS on SpaceX CRS-5. Control trays were stored on the ground at 4 C.     Towards the end of the 30 day spaceflight (Fruit Fly Lab – 01 on SpaceX-CRS 5 mission), the food trays containing S. marcescens were retrieved from 4 C storage and placed within the FIT food changeout platform. The platform was placed in a canvas CTB at ISS ambient temperature (23–25 C) for 5 days, plus 2 days in the SpaceX Dragon (22–25 C) for undocking/descent and retrieval. During the growth period, environmental data (CO2, O2, temperature, and relative humidity) was recorded and used to match the growth conditions for ground control experiments. Flies were cultivated at 25C and 50% relative humidity on standard fly food with 12 hour light-dark cycles. To generate synchronized 2 to 3 day old F1 flies, adult flies were allowed to lay for 48 hours in a bottle, then parent flies were discarded, and the bottles with eggs were allowed to grow into adult flies at 25C. Flies were collected on day 2 and allowed to mature for 24 hours after collection before injections of the bacteria samples. Injections of bacteria were performed according to methods described previously by our group and others.     RNA was extracted from live flies 18 hours post-injection.     RNA was extracted using the Qiagen RNeasy Mini Kit with 2-mercaptoethanol added in triplicate from 2 pooled adult (2-3 day old female) Drosophila melanogaster (w1118) per treatment, with 4 total treatment groups (no injection control, sham injection with PBS, ground bacteria-injected, and space bacteria-injected)\nindexed, polyA+ RNA libraries were prepared for sequencing using standard Illumina protocols at the Vincent J. Coates Genomics Sequencing Laboratory at UC Berkeley     polyA+ RNA libraries were prepared for sequencing using standard Illumina protocols at the Vincent J. Coates Genomics Sequencing Laboratory at UC Berkeley.     Samples were sequenced on the Illumina HiSeq 4000 platform with 100bp reads and paired-end library prep.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.26. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of D-melanogaster rRNA sequences retrieved from NCBI on 13-May-2024.     Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.0.2 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.0.2). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Drosophila Melanogaster STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly BDGP6 (Drosophila_melanogaster.BDGP6.46.dna.toplevel.fa) and the following gtf annotation file: Drosophila_melanogaster.BDGP6.46.112.gtf. Trimmed reads were aligned to the Drosophila Melanogaster STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to forward and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Dm.eg.db (version 3.19.1).",
+          "Experiment Platform": "FIT (Fly Immunity and Tumors) cassette and changeout platform",
+          "Characteristics": "",
+          "Study Grant Number": "NNX13AN38G and NNX15AB42G.",
+          "Study Publication Author List": "Rachel Gilbert  Medaya Torres  Rachel Clemens  Shannon Hateley  Ravikumar Hosamani  William Wade  and Sharmila Bhattacharya",
+          "Project Link": "https://lsda.jsc.nasa.gov/Experiment/exper/13623",
+          "Study Publication Title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+          "Managing NASA Center": "Ames Research Center (ARC)",
+          "Study Description": "While it has been shown that astronauts suffer immune disorders after spaceflight, the underlying causes are still poorly understood and there are many variables to consider when investigating the immune system in a complex environment. Additionally, there is growing evidence that suggests that not only is the immune system being altered, but the pathogens that infect the host are significantly influenced by spaceflight and ground-based spaceflight conditions. In this study, we demonstrate that Serratia marcescens (strain Db11) was significantly more lethal to Drosophila melanogaster after growth on the International Space Station than ground-based controls, but that the host immune system is not significantly altered amongst known immune genes. High-throughput sequencing of wild-type (w1118) adult hosts infected with either space or ground-reared S. marcescens revealed few changes in gene expression, with 11 genes significantly differentially expressed (q-values  less than 0.05) and only one gene related to the immune system. This data supports the main findings of the paper, which state that both spaceflight and low-shear modeled microgravity conditions increase the virulence of this pathogen, independent of the host immune system. This data, which shows that there are no significant immune-related changes to the host when infected with space-grown sample compared to ground-grown sample, provides further evidence that there are likely phenotypic changes to the pathogen itself that is causing increased virulence in spaceflight and in low-shear modeled microgravity. RNA was extracted in triplicate from 2 pooled adult (2-3 day old female) Drosophila melanogaster (w1118) per treatment, with 4 total treatment groups (no injection control, sham injection with PBS, ground bacteria-injected, and space bacteria-injected) with poly(A)+ RNA libraries. Samples were multiplexed and sequenced 100bp paired-end ready were sequenced on one lane of the Illumina HiSeq-4000.",
+          "organism": "Drosophila melanogaster",
+          "Data Source Type": "cgene",
+          "ESA Acronym": ""
+        },
+        "highlight": {
+          "all": [
+            "While it has been shown that astronauts suffer <em>immune</em> disorders after spaceflight, the underlying causes",
+            "Additionally, there is growing evidence that suggests that not only is the <em>immune</em> system being altered",
+            "system is not significantly altered amongst known <em>immune</em> genes.",
+            "This data, which shows that there are no significant <em>immune</em>-related changes to the host when infected",
+            "<em>cgene</em>"
+          ]
+        }
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Yd_6g4QB28eYt3lGNbbz",
+        "_score": 4.263786,
+        "_source": {
+          "Space Program": "",
+          "Flight Program": "",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Study Protocol Description": "Total RNA was isolated utilizing the RNeasy isolation kit (Qiagen, Valencia, CA). Briefly, cell pellets were lysed and homogenized followed by the addition of ethanol to optimize binding of RNA to the spin column. Contaminants were removed via washing by centrifugation and total RNA was eluted in water. RNA was then analyzed for quality utilizing the Agilent 2100 Bioanalyzer and the concentration was determined using the NanoDrop ND-1000 Spectrophotometer.     RNA quality check, labeling and hyb followed standard affymetrix procedures.\n\nLabel: biotinylation     RNA quality check, labeling and hyb followed standard affymetrix procedures.     Microarray analysis was performed using the Affymetrix GeneChip Human U133A array as described in the Affymetrix Analysis Technical Manual.     Microarrays were performed in triplicate using RNA isolated from the activated lymphocytes of three different blood donors. A cutoff was set at greater than or equal to 1.5-fold for analysis and for identifying genes of interest with the criterion for significance less than 0.01.     Isolation and Activation of Human Lymphocytes: Buffy coats containing human peripheral blood mononuclear cells (PBMCs) were obtained from the Gulf Coast Regional Blood Center (Houston, TX). PBMCs were separated by centrifugation through a Ficoll-Hypaque gradient. The lymphocyte layer was extracted. The cells were washed with hanks balanced salt solution (HBSS) and resuspended in RPMI medium containing 10% fetal bovine serum (FBS). Lymphocytes were activated by adding of 100 ng/ml of anti-CD3 (BD Biosciences, San Diego, CA) and 100 U/ml of IL-2 (Aldesleukin Proleukin—Chiron—Emeryville, CA) for 4 days. After that the cells were washed and placed in RPMI media containing 10% FBS and 100 U/ml IL-2 and cultured up to 2 weeks in static conditions with media replacement every 3–4 days. This procedure allowed to obtain pure population of activated T-cells. The purity of the cell population was confirmed by Flow cytometry analysis. Simulated Microgravity and Static 1g Cell Cultures: To approximate MG conditions we used a specialized RWV culture system developed at the NASA-Johnson Space Center and commercially available from Synthecon, Inc. (Houston, TX). This very low-shear culture system randomizes gravitational vectors and approximates the microgravity environment by sustaining cells in continuous free fall  This culture system has been successfully used in previous studies for the analysis of the effects of microgravity on PBMC locomotion on Earth and in parallel studies on Earth and in Space performed during space flight missions STS-54 and STS-56. Preliminary activated T-cells were split in two portions. One was further maintained in static (1 g) conditions and the other—placed in RWV bioreactor for 24 h at 37°C in atmosphere of 95% air and 5% CO2 at 1 × 10^6 cells/ml cell density. RWV bioreactor was continuously turned at a speed of 22 rpm.     Upon completion of the incubation the cells were washed with PBS and the cell pellets were frozen and placed in −80°C.",
+          "Material Type": "primary cell",
+          "Study Identifier": "OSD-5",
+          "Study Person": {
+            "First Name": "Diana",
+            "Middle Initials": "",
+            "Last Name": "Risin"
+          },
+          "ESA Acronym": "",
+          "Acknowledgments": "",
+          "Managing NASA Center": "",
+          "Data Source Type": "cgene",
+          "Mission": {
+            "Start Date": "",
+            "End Date": "",
+            "Name": ""
+          },
+          "Study Grant Number": "NASA Grant NRA-94-OLMSA-02 and NSCORT Grant NAG5-4072",
+          "Experiment Platform": "",
+          "Study Factor Name": "Microgravity Simulation",
+          "Study Publication Author List": "Nancy E Ward  Neal R Pellis  Semyon A Risin  Diana Risin",
+          "Study Assay Technology Platform": "Affymetrix",
+          "Authoritative Source URL": "OSD-5/",
+          "Project Identifier": "Simulated_Microgravity",
+          "thumbnail": "/geode-py/ws/studies/OSD-5/image",
+          "Project Title": "",
+          "Study Public Release Date": 0,
+          "Project Link": "",
+          "Study Publication Title": "Gene expression alterations in activated human T-cells induced by modeled microgravity.",
+          "organism": "Homo sapiens",
+          "Accession": "OSD-5",
+          "Study Assay Technology Type": "DNA microarray",
+          "Study Title": "Transcription profiling of activated human T cells induced by microgravity to identify apoptotic genes and other immune response genes",
+          "Study Protocol Type": "nucleic acid extraction protocol     labeling protocol     hybridization protocol     scan protocol     data processing protocol     sample treatment protocol     Sample collection protocol",
+          "Project Type": "Ground Study",
+          "Study Funding Agency": "This work was funded by NASA Grant NRA-94-OLMSA-02 and NSCORT Grant NAG5-4072.",
+          "Study Factor Type": "Weightlessness Simulation",
+          "Factor Value": "",
+          "Study Description": "The purpose of this study was to search for microgravity-sensitive genes, specifically for apoptotic genes influenced by the microgravity environment and other genes related to immune response. Experiment Overall Design: Two-group design with paired samples, i.e., one 1G and one MMG culture came from the same donor. Therefore, 6 samples came from 3 different donors. Experiment Overall Design: Donor 1 :GSM96146,GSM96147 Experiment Overall Design: Donor 2: GSM96148, GSM96149 Experiment Overall Design: Donor 3: GSM96150,GSM96151 Experiment Overall Design: Total RNA was submitted to, and then labeled, hybridized and data generated by the Baylor College Medicine Microarray Core Facility (333E One Baylor Plaza, Houston, TX 77030).",
+          "Study Protocol Name": "nucleic acid extraction protocol     labeling protocol     hybridization protocol     scan protocol     data processing protocol     treatment protocol     Sample collection protocol",
+          "Characteristics": "",
+          "Parameter Value": "",
+          "Identifiers": "GLDS-5",
+          "Data Source Accession": "E-GEOD-4209"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>",
+            "profiling of activated human T cells induced by microgravity to identify apoptotic genes and other <em>immune</em>",
+            "specifically for apoptotic genes influenced by the microgravity environment and other genes related to <em>immune</em>"
+          ]
+        }
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "_Zo84ZoBX9xVY69XslRR",
+        "_score": 4.23822,
+        "_source": {
+          "Authoritative Source URL": "OSD-943/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "4/25/22",
+            "Start Date": "4/8/22",
+            "Name": "AX-1"
+          },
+          "Material Type": "Whole Blood",
+          "Project Identifier": "Microgravity Pain (Ax-1)",
+          "Accession": "OSD-943",
+          "Identifiers": "GLDS-771",
+          "Study Identifier": "OSD-943",
+          "Study Protocol Name": "Treatment protocol     sample collection     DNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection",
+          "Study Assay Technology Type": "DNA microarray",
+          "Acknowledgments": "We thank all participants of this study and the Axiom team for their support and expertise.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Ao Parisien Cata Montagna Vigouroux Oliveira Fernandes de Araujo Karaky Ingelmo Diatchenko",
+            "Middle Initials": "",
+            "First Name": "Xiang Marc Juan P Francesca Marie Lorenna Mohamad Pablo Luda"
+          },
+          "Study Protocol Type": "sample treatment protocol     sample collection     DNA Extraction     Labeling     Nucleic Acid Hybridization     Data Collection",
+          "Space Program": "",
+          "Study Title": "Longitudinal transcriptomic and epigenetic analysis in astronauts reveals dynamic immune response to spaceflight [DNA methylation]",
+          "Study Factor Type": "Space Flight     time",
+          "Study Public Release Date": 1753833600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-943/image",
+          "Study Factor Name": "Spaceflight     Time",
+          "Study Assay Measurement Type": "DNA methylation profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE276323",
+          "Project Title": "",
+          "Study Funding Agency": "Supported by the Canadian Excellence Research Chairs grant CERC09, and the Canadian Institutes of Health Research (CIHR) Grant # 81528 to L. Diatchenko. X.",
+          "Study Protocol Description": "This study was approved by the Institutional Review Board (IRB) of the McGill University Health Center (MUHC: 2022–7768), the IRB of the National Aeronautics and Space Administration (NASA STUDY 00000403) by the University of Texas - M.D. Anderson (Reliance Agreement M.D. Anderson - NASA 2021 − 1179). All study procedures were conducted according to the guidelines of the Declaration of Helsinki. Participants were astronauts of the Axiom Space’s AX-1, launched on April 8, 2022, at 11:17 AM ET and splashed down on April 25, 2022, at 1:06 PM ET. The astronauts effectively remained in orbit for seventeen days and completed 240 orbits. Two crew members, healthy male astronauts (participant ID: Axiom1 and Axiom2), agreed to participate, and the final informed consent forms were signed in March 2022.     Written consent was obtained from the two male astronauts to collect peripheral venous whole blood samples using PAXgene blood RNA tubes (Qiagen, Maryland, United States) and PAXgene blood DNA tubes within two weeks before departure (pre-flight T0, i.e. within two weeks before April 8, 2022), within 24 h after landing (post-flight T2, i.e. within 24 h after April 25, 2022), and within three months after landing (post-flight T3, i.e. 3 months follow-up after April 25, 2022), centrifuged at 1300 G, room temperature for 10 min. Plasma was aliquoted into dedicated cryotubes and stored at − 80 C until further processing.     The genomic DNA was extracted using the PAXgene Blood DNA Kit (Qiagen) following the manufacturer’s instructions. Then the DNA samples were quantified using Nanodrop 2000 Spectrophotometer (Thermo Fisher Scientific Inc, Waltham, US) by measuring absorbance at 260 nm. Next, the purity of the DNA was determined by calculating the absorbance ratio of A260/A280, which varied between 1.82 and 1.83. Finally, the DNA samples were aliquoted and stored at −20 C, and one aliquot of each sample was sent to Genome Quebec Innovation Center (GQIC, Montreal, Canada) for methylation assay.     Standard Illumina Protocol. Labeled with Cy3 and Cy5.     Bisulphite converted DNA was amplified, fragmented, precipitate, resuspended and hybridised to Illumina Infinium Human MethylationEPIC Beadchip using standard Illumina protocol.     Arrays were imaged using Illumina iScan system.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Ao X  Parisien M  Cata JP  Montagna F  Vigouroux M  Oliveira Fernandes de Araujo L  Karaky M  Ingelmo P  Diatchenko L.",
+          "Project Link": "",
+          "Study Publication Title": "Longitudinal transcriptomic and epigenetic analysis of the blood in two astronauts.",
+          "Managing NASA Center": "",
+          "Study Description": "The space industry has made significant strides, leading to an era of commercial spaceflight. Meanwhile, understanding molecular responses to spaceflight is crucial for astronauts' safety. To this end, we examined transcriptomic and epigenetic changes in two astronauts' blood samples at three timepoints: two weeks before spaceflight (T0), 24 hours after spaceflight (T2), and three months after spaceflight (T3). Transcriptomic analysis identified two gene clusters with opposing transient expression trends post-flight (T2), normalized at T3: one upregulated and the other downregulated. Mapped immune cell types through the CIBERSORT coupled with the pathway analysis suggested monocytes' role in coordinated cellular response. Epigenetic analysis identified four methylation patterns with transient and persistent changes post-flight, enriched in nervous system development and cell apoptosis pathways. Methylation changes implicated genes associated with bone disorders, including FBLIM1, IHH, and SCAMP2. eQTM analysis suggested a link between RNA transcriptional level and DNA methylation through transcriptional regulator ZNF684. In conclusion, our study revealed significant short-term transcriptional and methylation changes as well as long-term methylation changes. This study hosts the DNA methylation dataset. RNAseq dataset can be found in OSD-903.",
+          "organism": "Homo sapiens",
+          "Data Source Type": "cgene",
+          "ESA Acronym": ""
+        },
+        "highlight": {
+          "all": [
+            "Longitudinal transcriptomic and epigenetic analysis in astronauts reveals dynamic <em>immune</em> response to",
+            "Mapped <em>immune</em> cell types through the CIBERSORT coupled with the pathway analysis suggested monocytes'",
+            "<em>cgene</em>"
+          ]
+        }
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "JX5gJpoB9PxE3kqaDvcg",
+        "_score": 4.23822,
+        "_source": {
+          "Authoritative Source URL": "OSD-903/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "04/25/2022",
+            "Start Date": "04/08/2022",
+            "Name": "AX-1"
+          },
+          "Material Type": "Whole Blood",
+          "Project Identifier": "Microgravity Pain (Ax-1)",
+          "Accession": "OSD-903",
+          "Identifiers": "GLDS-732",
+          "Study Identifier": "OSD-903",
+          "Study Protocol Name": "Treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "We thank all participants of this study and the Axiom team for their support and expertise.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Ao Parisien Cata Montagna Vigouroux Oliveira Fernandes de Araujo Karaky Ingelmo Diatchenko",
+            "Middle Initials": "",
+            "First Name": "Xiang Marc Juan P Francesca Marie Lorenna Mohamad Pablo Luda"
+          },
+          "Study Protocol Type": "sample treatment protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing",
+          "Space Program": "",
+          "Study Title": "Longitudinal transcriptomic and epigenetic analysis in astronauts reveals dynamic immune response to spaceflight [RNA-seq]",
+          "Study Factor Type": "time     Space Flight",
+          "Study Public Release Date": 1753833600.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-903/image",
+          "Study Factor Name": "Time     Spaceflight",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE276490",
+          "Project Title": "",
+          "Study Funding Agency": "Supported by the Canadian Excellence Research Chairs grant CERC09, and the Canadian Institutes of Health Research (CIHR) Grant # 81528 to L. Diatchenko. X.",
+          "Study Protocol Description": "This study was approved by the Institutional Review Board (IRB) of the McGill University Health Center (MUHC: 2022–7768), the IRB of the National Aeronautics and Space Administration (NASA STUDY 00000403) by the University of Texas - M.D. Anderson (Reliance Agreement M.D. Anderson - NASA 2021 − 1179). All study procedures were conducted according to the guidelines of the Declaration of Helsinki. Participants were astronauts of the Axiom Space’s AX-1, launched on April 8, 2022, at 11:17 AM ET and splashed down on April 25, 2022, at 1:06 PM ET. The astronauts effectively remained in orbit for seventeen days and completed 240 orbits. Two crew members, healthy male astronauts (participant ID: Axiom1 and Axiom2), agreed to participate, and the final informed consent forms were signed in March 2022.     Written consent was obtained from the two male astronauts to collect peripheral venous whole blood samples using PAXgene blood RNA tubes (Qiagen, Maryland, United States) and PAXgene blood DNA tubes within two weeks before departure (pre-flight T0, i.e. within two weeks before April 8, 2022), within 24 h after landing (post-flight T2, i.e. within 24 h after April 25, 2022), and within three months after landing (post-flight T3, i.e. 3 months follow-up after April 25, 2022), centrifuged at 1300 G, room temperature for 10 min. Plasma was aliquoted into dedicated cryotubes and stored at − 80 C until further processing.     Blood samples were collected at MD Anderson, Houston, TX, anonymized, then shipped to Canada at McGill University. RNA extraction was performed using the PAXgene Blood RNA kit and a corresponding protocol (Qiagen, Maryland, US). The isolated RNA was then stored in Eppendorf tubes (Eppendorf AG, Hamburg, Germany) at −80 C until they were sent to Genome Quebec Innovation Center (GQIC, Montreal, Canada) for quality control (QC) and deep-sequencing. RNA QC was done by Nanodrop (Thermo Fisher Scientific Inc, Waltham, US) and Bioanalyzer (Agilent Technologies Inc, Santa Clara, US).     Illumina Stranded mRNA Prep Kit was used to generate libraries.     Total RNA then was deep-sequenced on an Illumina NovaSeq 6000 (Illumina Inc, San Diego, US), using reads of length 101 nucleotides in a paired-end fashion, for a total of 202 nucleotides per RNA fragment.",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Ao X  Parisien M  Cata JP  Montagna F  Vigouroux M  Oliveira Fernandes de Araujo L  Karaky M  Ingelmo P  Diatchenko L.",
+          "Project Link": "",
+          "Study Publication Title": "Longitudinal transcriptomic and epigenetic analysis of the blood in two astronauts.",
+          "Managing NASA Center": "",
+          "Study Description": "The space industry has made significant strides, leading to an era of commercial spaceflight. Meanwhile, understanding molecular responses to spaceflight is crucial for astronauts' safety. To this end, we examined transcriptomic and epigenetic changes in two astronauts' blood samples at three timepoints: two weeks before spaceflight (T0), 24 hours after spaceflight (T2), and three months after spaceflight (T3). Transcriptomic analysis identified two gene clusters with opposing transient expression trends post-flight (T2), normalized at T3: one upregulated and the other downregulated. Mapped immune cell types through the CIBERSORT coupled with the pathway analysis suggested monocytes' role in coordinated cellular response. Epigenetic analysis identified four methylation patterns with transient and persistent changes post-flight, enriched in nervous system development and cell apoptosis pathways. Methylation changes implicated genes associated with bone disorders, including FBLIM1, IHH, and SCAMP2. eQTM analysis suggested a link between RNA transcriptional level and DNA methylation through transcriptional regulator ZNF684. In conclusion, our study revealed significant short-term transcriptional and methylation changes as well as long-term methylation changes. This study hosts the RNAseq dataset. DNA methylation dataset can be found in OSD-943.",
+          "organism": "Homo sapiens",
+          "Data Source Type": "cgene",
+          "ESA Acronym": ""
+        },
+        "highlight": {
+          "all": [
+            "Longitudinal transcriptomic and epigenetic analysis in astronauts reveals dynamic <em>immune</em> response to",
+            "Mapped <em>immune</em> cell types through the CIBERSORT coupled with the pathway analysis suggested monocytes'",
+            "<em>cgene</em>"
+          ]
+        }
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "dHTWh48BcirjsmJnU12C",
+        "_score": 4.0785747,
+        "_source": {
+          "Authoritative Source URL": "OSD-566/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "adrenal gland",
+          "Project Identifier": "Multiple_Radiation_Types, Heavy_Ion_HZE_Irradiation, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, High_Dose_Irradiation",
+          "Accession": "OSD-566",
+          "Identifiers": "GLDS-567",
+          "Study Identifier": "OSD-566",
+          "Study Protocol Name": "irradiation protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Paul",
+            "Middle Initials": "",
+            "First Name": "Amber"
+          },
+          "Study Protocol Type": "see protocol description     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation",
+          "Space Program": "",
+          "Study Title": "Sexual Dimorphism during Integrative Endocrine and Immune Responses to Ionizing Radiation in Mice -- Adrenal data",
+          "Study Factor Type": "ionizing radiation     Sex",
+          "Study Public Release Date": 1715904000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-566/image",
+          "Study Factor Name": "Ionizing Radiation     Sex",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by the Embry-Riddle Aeronautical University startup fund (AMP), the NASA Human Research Program (HRP) Human Factors Behavioral Performance Element Grant 18-18FLAG-2-0028 (AER), NNX15AB48G (LKC), and 80JSC019N0001-FLAGSHIP (CGTT).",
+          "Study Protocol Description": "All animal experimental procedures were approved by the Institutional Animal Care and Use Committee (IACUC) at Brookhaven National Laboratory (BNL) protocol number 516. All experiments were performed by trained personnel in AAALAC accredited animal facilities at BNL, while conforming to the U.S. National Institutes of Health Guide for the Care and Use of Laboratory Animals. This study is reported in accordance with ARRIVE guidelines. 24-week-old C57Bl/6J male and female mice were purchased from Jackson Laboratory (CA, USA) and shipped to Brookhaven National Laboratory (BNL) 14-days prior to irradiation (IR-14). At arrival to BNL, mice were quarantined and acclimated to a 12h light : 12h dark cycle at standard temperature (23±2°C) and humidity (approximately 50%). Food and water were given ad libitum, and bedding was changed weekly. At IR-4, mice were socially isolated, and, at IR+0, mice irradiated with the 5-ion galactic cosmic ray radiation (GCRsim) at 0, 15, and 50 cGy doses. On day IR-1, mice were transferred to the NASA Space Radiation Laboratory (NSRL) on BNL’s campus by animal care staff. On day IR+0, mice received whole-body irradiation using the simplified 5-ion GCRsim irradiation scheme (protons at 250 and 1000 MeV, 28Si at 600 MeV/n, 4He at 250 MeV/n, 16O at 350 MeV/n, and 56Fe at 600 MeV/n) with 15 and 50 cGy, while 0 cGy sham controls were also performed in similar housing condition, in the absence of irradiation. GCRsim ions, energies, and doses were determined by a NASA consensus formula as previously described. Beam time exposures ranged from ~15 minutes (15 cGy) to 35-45 minutes (50 cGy) per n equals 12 batched cohorts. NSRL GCR and SPE simulations are designed to approximate the chronic mixed field exposures in space by means of sequential acute exposures to a variety of ion/energy combinations.  The exposure protocols are on the NSRL website: https://www.bnl.gov/nsrl/userguide/simgcrsim.php (SimGCRSim).  The dose can be administered either in a single series of exposures lasting approximately an hour or in daily fractions over several weeks.  The GCR simulations are described in detail here: Simonsen LC, Slaba TC, Guida P, Rusek A (2020) NASA’s first ground-based Galactic Cosmic Ray Simulator: Enabling a new era in space radiobiology research. PLoS Biol 18(5): e3000669. https://doi.org/10.1371/journal.pbio.3000669. There are only 0cGy and 50 cGy samples in this dataset.     At IR+14 mice were euthanized by CO2 overdose. Mice were weighed at euthanasia. Adrenals were flash frozen in liquid nitrogen with subsequent storage at -80ºC. Blood was collected through the abdominal aorta (11:00–16:00 h).     Total RNA was extracted with Trizol (Thermo Fisher) and purified using Quick-RNA Miniprep Kit (Zymo Research).     RNA-sequencing libraries were performed using Illumina’s total RNA kit per manufacturer’s instructions. RNA integrity was determined using an Agilent TapeStation with eRIN values  greater than  7. 500 ng of total RNA was used as input. rRNA was depleted, cDNA (first and second strands) were synthesized, and adaptor index ligation and strand selection was performed (Illumina Stranded total RNA Prep with Ribo-Zero Plus). For multiplexing, barcodes with unique indices out of 96, were used per sample (IDT for Illumina). Libraries were amplified by PCR on a Mastercycler Pro (Eppendorf) and purified with RNAClean XP Agencourt beads (Beckman Coulter).     Libraries were sequenced on a NextSeq1000 (Illumina) to generate 30 M, 76-bp paired end reads per sample.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.26. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of Mus-musculus rRNA sequences retrieved from NCBI on 01-Sep-2021.     Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.1.0 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.1.0). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Mus Musculus STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly GRCm39 (Mus_musculus.GRCm39.dna.primary_assembly.fa) and the following gtf annotation file: Mus_musculus.GRCm39.112.gtf. Trimmed reads were aligned to the Mus Musculus STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Mm.eg.db (version 3.19.1).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Burke Marissa  Wong Kelly  Talyansky Yuli  Mhatre Siddhita D.  Mitchell Carol  Juran Cassandra M.  Olson Makaila  Iyer Janani  Puukila Stephanie  Tahimic Candice G. T.  Christenson Lane K.  Lowe Moniece  Rubinstein Linda  Shirazi-Fard Yasaman  Sowa Marianne B.  Alwood Joshua S.  Ronca April E.  Paul Amber M.",
+          "Project Link": "",
+          "Study Publication Title": "Sexual dimorphism during integrative endocrine and immune responses to ionizing radiation in mice",
+          "Managing NASA Center": "",
+          "Study Description": "Exposure to cosmic ionizing radiation is an innate risk of the spaceflight environment that can cause DNA damage and altered cellular function. In astronauts, longitudinal monitoring of physiological systems and interactions between these systems are important to consider for mitigation strategies. In addition, assessments of sex-specific biological responses in the unique environment of spaceflight are vital to support future exploration missions that include both females and males. Here we assessed sex-specific, multi-system immune and endocrine responses to simulated cosmic radiation. For this, 24-week-old, male and female C57Bl/6J mice were exposed to simplified five-ion, space-relevant galactic cosmic ray (GCRsim) radiation at 15 and 50 cGy, to simulate predicted radiation exposures that would be experienced during lunar and Martian missions, respectively. Blood and adrenal tissues were collected at 3- and 14-days post-exposure for analysis of immune and endocrine biosignatures and pathways. Sexually dimorphic adrenal gland weights and morphology, differential total RNA expression, and unique immune phenotypes were altered by GCRsim. In brief, this study offers new insights into sexually dimorphic immune and endocrine kinetics following simulated cosmic radiation exposure and highlights the necessity for personalized translational approaches for astronauts during exploration missions. This study includes data from adrenal samples only.",
+          "organism": "Mus musculus",
+          "Data Source Type": "cgene",
+          "ESA Acronym": ""
+        },
+        "highlight": {
+          "all": [
+            "Sexual Dimorphism during Integrative Endocrine and <em>Immune</em> Responses to Ionizing Radiation in Mice --",
+            "Sexual dimorphism during integrative endocrine and <em>immune</em> responses to ionizing radiation in mice",
+            "Here we assessed sex-specific, multi-system <em>immune</em> and endocrine responses to simulated cosmic radiation",
+            "In brief, this study offers new insights into sexually dimorphic <em>immune</em> and endocrine kinetics following",
+            "<em>cgene</em>"
+          ]
+        }
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "dXTXh48BcirjsmJn4l1h",
+        "_score": 4.0536523,
+        "_source": {
+          "Authoritative Source URL": "OSD-719/",
+          "Flight Program": "",
+          "Mission": {
+            "End Date": "",
+            "Start Date": "",
+            "Name": ""
+          },
+          "Material Type": "Blood",
+          "Project Identifier": "Multiple_Radiation_Types, Heavy_Ion_HZE_Irradiation, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, High_Dose_Irradiation",
+          "Accession": "OSD-719",
+          "Identifiers": "GLDS-641",
+          "Study Identifier": "OSD-719",
+          "Study Protocol Name": "irradiation protocol     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol     GeneLab RNAseq data processing protocol",
+          "Study Assay Technology Type": "RNA Sequencing (RNA-Seq)",
+          "Acknowledgments": "",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Paul",
+            "Middle Initials": "",
+            "First Name": "Amber"
+          },
+          "Study Protocol Type": "see protocol description     sample collection     Nucleic Acid Extraction     Library Construction     Nucleic Acid Sequencing     data transformation     data transformation",
+          "Space Program": "",
+          "Study Title": "Sexual Dimorphism during Integrative Endocrine and Immune Responses to Ionizing Radiation in Mice -- Blood data",
+          "Study Factor Type": "Sex     ionizing radiation",
+          "Study Public Release Date": 1715904000.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-719/image",
+          "Study Factor Name": "Sex     Ionizing Radiation",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Ground Study",
+          "Factor Value": "",
+          "Data Source Accession": "",
+          "Project Title": "",
+          "Study Funding Agency": "This work was supported by the Embry-Riddle Aeronautical University startup fund (AMP), the NASA Human Research Program (HRP) Human Factors Behavioral Performance Element Grant 18-18FLAG-2-0028 (AER), NNX15AB48G (LKC), and 80JSC019N0001-FLAGSHIP (CGTT).",
+          "Study Protocol Description": "All animal experimental procedures were approved by the Institutional Animal Care and Use Committee (IACUC) at Brookhaven National Laboratory (BNL) protocol number 516. All experiments were performed by trained personnel in AAALAC accredited animal facilities at BNL, while conforming to the U.S. National Institutes of Health Guide for the Care and Use of Laboratory Animals. This study is reported in accordance with ARRIVE guidelines. 24-week-old C57Bl/6J male and female mice were purchased from Jackson Laboratory (CA, USA) and shipped to Brookhaven National Laboratory (BNL) 14-days prior to irradiation (IR-14). At arrival to BNL, mice were quarantined and acclimated to a 12h light : 12h dark cycle at standard temperature (23 +/- 2 C) and humidity (approximately 50%). Food and water were given ad libitum, and bedding was changed weekly. At IR-4, mice were socially isolated, and, at IR plus 0, mice irradiated with the 5-ion galactic cosmic ray radiation (GCRsim) at 0, 15, and 50 cGy doses. On day IR-1, mice were transferred to the NASA Space Radiation Laboratory (NSRL) on BNL’s campus by animal care staff. On day IR plus 0, mice received whole-body irradiation using the simplified 5-ion GCRsim irradiation scheme (protons at 250 and 1000 MeV, 28Si at 600 MeV/n, 4He at 250 MeV/n, 16O at 350 MeV/n, and 56Fe at 600 MeV/n) with 15 and 50 cGy, while 0 cGy sham controls were also performed in similar housing condition, in the absence of irradiation. GCRsim ions, energies, and doses were determined by a NASA consensus formula as previously described. Beam time exposures ranged from ~15 minutes (15 cGy) to 35-45 minutes (50 cGy) per n equals 12 batched cohorts. NSRL GCR and SPE simulations are designed to approximate the chronic mixed field exposures in space by means of sequential acute exposures to a variety of ion/energy combinations.  The exposure protocols are on the NSRL website: https://www.bnl.gov/nsrl/userguide/simgcrsim.php (SimGCRSim).  The dose can be administered either in a single series of exposures lasting approximately an hour or in daily fractions over several weeks.  The GCR simulations are described in detail here: Simonsen LC, Slaba TC, Guida P, Rusek A (2020) NASA’s first ground-based Galactic Cosmic Ray Simulator: Enabling a new era in space radiobiology research. PLoS Biol 18(5): e3000669. https://doi.org/10.1371/journal.pbio.3000669. There are only 0cGy and 50 cGy samples in this dataset.     At IR+14 mice were euthanized by CO2 overdose. Mice were weighed at euthanasia. Blood was collected through the abdominal aorta (11:00–16:00 h).     Total RNA was extracted with Trizol (Thermo Fisher) and purified using Quick-RNA Miniprep Kit (Zymo Research).     RNA-sequencing libraries were performed using Illumina’s total RNA kit per manufacturer’s instructions. RNA integrity was determined using an Agilent TapeStation with eRIN values  greater than  7. 500 ng of total RNA was used as input. rRNA was depleted, cDNA (first and second strands) were synthesized, and adaptor index ligation and strand selection was performed (Illumina Stranded total RNA Prep with Ribo-Zero Plus). For multiplexing, barcodes with unique indices out of 96, were used per sample (IDT for Illumina). Libraries were amplified by PCR on a Mastercycler Pro (Eppendorf) and purified with RNAClean XP Agencourt beads (Beckman Coulter).     Libraries were sequenced on a NextSeq1000 (Illumina) to generate 30 M, 75-bp paired end reads per sample.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.26. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of Mus-musculus rRNA sequences retrieved from NCBI on 01-Sep-2021.     Data were processed as described in GL-DPPD-7101-G (https://github.com/nasa/GeneLab_Data_Processing/blob/master/RNAseq/Pipeline_GL-DPPD-7101_Versions/GL-DPPD-7101-G.md), using NF_RCP version 2.0.2 (https://github.com/nasa/GeneLab_RNASeq_Workflow/tree/NF_RCP_2.0.2). In short, raw fastq files were filtered using Trim Galore! (version 0.6.10) powered by Cutadapt (version 4.2). Trimmed fastq file quality was evaluated with FastQC (version 0.12.1), and MultiQC (version 1.26) was used to generate MultiQC reports. Mus Musculus STAR and RSEM references were built using STAR (version 2.7.11b) and RSEM (version 1.3.3), respectively, Ensembl release 112, genome assembly GRCm39 (Mus_musculus.GRCm39.dna.primary_assembly.fa) and the following gtf annotation file: Mus_musculus.GRCm39.112.gtf. Trimmed reads were aligned to the Mus Musculus STAR reference with STAR (version 2.7.11b) and alignment log files were compiled with MultiQC (version 1.26). Aligned reads were assessed for strandedness using RSeQC infer_experiment.py (version 5.0.4), gene body coverage using RSeQC geneBody_coverage.py (version 5.0.4), inner distance was assessed using RSeQC inner_distance.py (version 5.0.4), and distribution of RNA features using RSeQC read_distribution.py (version 5.0.4). Aligned reads from all samples were quantified using RSEM (version 1.3.3), with strandedness set to reverse and RSEM count log files were compiled with MultiQC (version 1.26). To create a set of rRNA-removed quantification data, Ensembl IDs mapping to ribosomal RNA (rRNA) were removed from the RSEM gene count data. Both the original set of RSEM quantification data and the rRNA-removed data were subject to differential gene expression analysis as follows. A runsheet was generated with dp_tools (version 1.3.8) and the runsheet and quantification data were imported to R (version 4.4.2) with tximport (version 1.34.0) and normalized with DESeq2 (version 1.46.0) median of ratios method. Normalized gene counts were subject to differential expression analysis. Differential expression analysis was performed in R (version 4.4.2) using DESeq2 (version 1.46.0); all groups were compared pairwise using the Wald test and the likelihood ratio test was used to generate the F statistic p-value. Gene annotations were assigned using the custom annotation tables generated in-house as detailed in GL-DPPD-7110-A (https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable-A_1.1.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110-A/GL-DPPD-7110-A.md), with STRINGdb (version 2.16.4), PANTHER.db (version 1.0.12), and org.Mm.eg.db (version 3.19.1).",
+          "Experiment Platform": "",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "Burke M  Wong K  Talyansky Y  Mhatre SD  Mitchell C  Juran CM  Olson M  Iyer J  Puukila S  Tahimic CGT  Christenson LK  Lowe M  Rubinstein L  Shirazi-Fard Y  Sowa MB  Alwood JS  Ronca AE  Paul AM.",
+          "Project Link": "",
+          "Study Publication Title": "Sexual dimorphism during integrative endocrine and immune responses to ionizing radiation in mice.",
+          "Managing NASA Center": "",
+          "Study Description": "Exposure to cosmic ionizing radiation is an innate risk of the spaceflight environment that can cause DNA damage and altered cellular function. In astronauts, longitudinal monitoring of physiological systems and interactions between these systems are important to consider for mitigation strategies. In addition, assessments of sex-specific biological responses in the unique environment of spaceflight are vital to support future exploration missions that include both females and males. Here we assessed sex-specific, multi-system immune and endocrine responses to simulated cosmic radiation. For this, 24-week-old, male and female C57Bl/6J mice were exposed to simplified five-ion, space-relevant galactic cosmic ray (GCRsim) radiation at 15 and 50 cGy, to simulate predicted radiation exposures that would be experienced during lunar and Martian missions, respectively. Blood and adrenal tissues were collected at 3- and 14-days post-exposure for analysis of immune and endocrine biosignatures and pathways. Sexually dimorphic adrenal gland weights and morphology, differential total RNA expression, and unique immune phenotypes were altered by GCRsim. In brief, this study offers new insights into sexually dimorphic immune and endocrine kinetics following simulated cosmic radiation exposure and highlights the necessity for personalized translational approaches for astronauts during exploration missions. This study includes data from blood samples only.",
+          "organism": "Mus musculus",
+          "Data Source Type": "cgene",
+          "ESA Acronym": ""
+        },
+        "highlight": {
+          "all": [
+            "Sexual Dimorphism during Integrative Endocrine and <em>Immune</em> Responses to Ionizing Radiation in Mice --",
+            "Sexual dimorphism during integrative endocrine and <em>immune</em> responses to ionizing radiation in mice.",
+            "Here we assessed sex-specific, multi-system <em>immune</em> and endocrine responses to simulated cosmic radiation",
+            "In brief, this study offers new insights into sexually dimorphic <em>immune</em> and endocrine kinetics following",
+            "<em>cgene</em>"
+          ]
+        }
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "Xt_6g4QB28eYt3lGNbbC",
+        "_score": 3.9474313,
+        "_source": {
+          "Space Program": "NASA",
+          "Flight Program": "",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Study Protocol Description": "RNA was extracted with Trizol reagent, followed by clean-up and DNase I treatment with QIAGEN RNeasy mini kit in accordance with the prescribed protocol provided with the kit. Quality control was performed with Agilent Bioanalyser.     Biotinylated cRNA were prepared with the Ambion MessageAmp kit for Illumina arrays     Standard Illumina hybridization protocol     Standard Illumina scanning protocol     The data were corrected with COMBAT correction and then quantile normalisation with GenePattern Illumina Normalizer Module ID_REF = VALUE = COMBAT, Quantile     Murine Lewis lung carcinoma (LLC) cells, originally derived from a spontaneous tumor in a C57BL/6 mouse, were obtained from the American Type Culture Collection (Manassas, VA). The LLC cells were cultured under standard conditions in high glucose DMEM (Gibco Invitrogen Cell Culture, Carlsbad, CA) with 10% FBS (Gibco Invitrogen Cell Culture) and 5% CO2.\n\nTumor Injections:\nInjections of C57BL/6 mice were made subcutaneously in the mid-dorsal region of the back with 10^6 LLC cells, 8 h after the first of three dose fractions. Unirradiated mice, serving as controls, were similarly injected with 10^6 LLC cells. Mice were anesthetized by inhalation of 4% isoflurane, for injection of 10^6 LLC cells suspended in 0.2 ml phosphate-buffered saline (PBS). Sham mice were treated identically.     Thirty C57BL/6 male mice 68 days old (Jackson Laboratory) and thirty 736 days old (National Institute of Aging) were used in this study, and irradiation protocols of these mice were previously published. Ten adolescent and ten old mice were given whole-body irradiation once a day for three days with 0.5 Gy of proton ions (1-GeV; LET 0.24-keV/µm; plateau, non-Bragg peak, region, 0.5 Gy/min dose rate) at Brookhaven National Laboratory (BNL) (Upton, NY). Mice were restrained and were not anesthetized during irradiation. An additional 20 adolescent and 20 old mice were not irradiated, but otherwise handled identically and used as sham, unirradiated controls. All animals, control and irradiated, were injected with syngeneic LLC cells after the first of three fractions of sham or proton irradiation. The timing of the dosing relative to cancer cell injection was chosen in order to maximize the likelihood of the impact of proton irradiation on tumor development and advancement. This was achieved by combining the situation where the first irradiation fraction acts on the normal cells of the host and later fractions modulate interactions between the host and the cancer cells.     Mice were monitored regularly, and tumor size was measured with calipers by a single individual. Once tumors reached ∼1.5 cm^3 , mice were sacrificed with a 0.6-ml intraperitoneal injection of 2,2,2-tribromoethanol at 20 mg/ml. Tissues to be frozen-sectioned were dissected and slow-frozen in OCT (Tissue Tek, Fisher Scientific, Pittsburgh, PA) in the gas phase of liquid nitrogen, and tissues for RNA isolation were snap-frozen in liquid nitrogen.",
+          "Material Type": "Spleen",
+          "Study Identifier": "OSD-89",
+          "Study Person": {
+            "First Name": "Afshin Clare Justin Lili Lynn Michael Philip",
+            "Middle Initials": "",
+            "Last Name": "Beheshti Lamont Wage Ma Hlatky Peluso Hahnfeldt"
+          },
+          "ESA Acronym": "",
+          "Acknowledgments": "We thank Adam Rusek, Michael Sivertz and the staff at Brookhaven National Laboratories and NASA Space Radiation Laboratories for their assistance with irradiations. We thank Janusz Weremowicz for assistance with animals, Alexandra Madu for technical assistance, and Stephen Wage for manuscript consultation.",
+          "Managing NASA Center": "Johnson Space Center (JSC)",
+          "Data Source Type": "cgene",
+          "Mission": {
+            "Start Date": "",
+            "End Date": "",
+            "Name": ""
+          },
+          "Study Grant Number": "NASA NSCOR Grant Number: NNJ06HA28G and NNX11AK26G; NCI Award Number: U54CA149233",
+          "Experiment Platform": "",
+          "Study Factor Name": "Ionizing Radiation     Age",
+          "Study Publication Author List": "Wage J  Ma L  Peluso M  Lamont C  Evens AM  Hahnfeldt P  Hlatky L  Beheshti A.",
+          "Study Assay Technology Platform": "Illumina",
+          "Authoritative Source URL": "OSD-89/",
+          "Project Identifier": "Proton_Irradiation, High_Dose_Irradiation, Low_LET_Irradiation",
+          "thumbnail": "/geode-py/ws/studies/OSD-89/image",
+          "Project Title": "Solid Tumor Risk Estimation: Incorporating Intercellular Interaction Effects",
+          "Study Public Release Date": 1434931200.0,
+          "Project Link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13614",
+          "Study Publication Title": "Proton irradiation impacts age-driven modulations of cancer progression influenced by immune system transcriptome modifications from splenic tissue.",
+          "organism": "Mus musculus",
+          "Accession": "OSD-89",
+          "Study Assay Technology Type": "DNA microarray",
+          "Study Title": "Proton Irradiation Impacts Age Driven Modulations of Cancer Progression Influenced by Immune System Transcriptome Modifications from Splenic Tissue",
+          "Study Protocol Type": "RNA extraction     labeling     nucleic acid hybridization     array scanning protocol     normalization data transformation     sample treatment protocol     fractionated radiation exposure     sample collection",
+          "Project Type": "Ground Study",
+          "Study Funding Agency": "This material is based upon work supported by the National Aeronautics and Space Administration under NSCOR Grant Nos NNJ06HA28G and NNX11AK26G issued through the Human Research Program to L.H. and by Award Number U54CA149233 from the National Cancer Institute, to LH.",
+          "Study Factor Type": "ionizing radiation     age",
+          "Factor Value": "",
+          "Study Description": "Age plays a crucial role in the interplay between tumor and host; with further perturbations induced by irradiation. Proton irradiation on tumors induces biological modulations including inhibition of angiogenic and immune factors critical to ''hallmark'' processes impacting tumor development, in addition to physical targeting advantages. These advantages have provided promising results for proton therapy in cancer. Additionally, protons have implications for carcinogenesis risk of space travel (due to the high proportion of high energy protons in space radiation). Through a systems biology approach, we investigated how host tissue (i.e. splenic tissue) of tumor-bearing mice is altered with age, with or without whole-body proton exposure. Transcriptome analysis was performed on splenic tissue from adolescent (68 day) versus old (736 day) C57BL/6 male mice injected with Lewis lung carcinoma cells with or without three fractionations of 0.5Gy (1GeV) proton irradiation. Global transcriptome analysis indicated that proton irradiation of adolescent hosts caused significant signaling changes within splenic tissues that support carcinogenesis within the mice, as compared to old subjects. Increases in cell cycling and immunosuppression in irradiated adolescent hosts with CDK2, MCM7, CD74, and RUVBL2 as the key players were involved in the regulatory changes in host environment response (i.e. spleen). These results suggest a significant biological component to proton irradiation, operative through host age, that would indicate a modulation of host's ability to support carcinogenesis in adolescence and the bestowal of resistance to immunosuppression, carcinogenesis, and genetic perturbation by old age.",
+          "Study Protocol Name": "P-GSE67243-2     P-GSE67243-3     P-GSE67243-4     P-GSE67243-5     P-GSE67243-1     sample treatment     irradiation protocol     sample collection",
+          "Characteristics": "",
+          "Parameter Value": "",
+          "Identifiers": "GLDS-89",
+          "Data Source Accession": "E-GEOD-67243"
+        },
+        "highlight": {
+          "all": [
+            "<em>cgene</em>",
+            "Proton irradiation impacts age-driven modulations of cancer progression influenced by <em>immune</em> system transcriptome",
+            "Proton Irradiation Impacts Age Driven Modulations of Cancer Progression Influenced by <em>Immune</em> System Transcriptome",
+            "Proton irradiation on tumors induces biological modulations including inhibition of angiogenic and <em>immune</em>"
+          ]
+        }
+      },
+      {
+        "_index": "study",
+        "_type": "docs",
+        "_id": "pRaxKZwBGk-DTvTsdKyz",
+        "_score": 3.8269756,
+        "_source": {
+          "Authoritative Source URL": "OSD-924/",
+          "Flight Program": "International Space Station (ISS)",
+          "Mission": {
+            "End Date": "01/14/2019",
+            "Start Date": "12/05/2018",
+            "Name": "SpaceX-16"
+          },
+          "Material Type": "limb muscle",
+          "Project Identifier": "RRRM-1 (RR-8)",
+          "Accession": "OSD-924",
+          "Identifiers": "GLDS-752",
+          "Study Identifier": "OSD-924",
+          "Study Protocol Name": "Animal Husbandry     sample collection     Cell Isolation     Library Construction     Nucleic Acid Sequencing     GeneLab raw data processing protocol",
+          "Study Assay Technology Type": "single-cell RNA sequencing",
+          "Acknowledgments": "We thank Charles Chan for his assistance, who unfortunately passed away during the course of the project.",
+          "Study Assay Technology Platform": "Illumina",
+          "Study Person": {
+            "Last Name": "Grandke Keller",
+            "Middle Initials": "",
+            "First Name": "Friederike Andreas"
+          },
+          "Study Protocol Type": "Animal Husbandry     sample collection     Cell Isolation     Library Construction     Nucleic Acid Sequencing     data transformation",
+          "Space Program": "NASA",
+          "Study Title": "Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - limb muscle data",
+          "Study Factor Type": "Space Flight     age",
+          "Study Public Release Date": 1770163200.0,
+          "Parameter Value": "",
+          "thumbnail": "/geode-py/ws/studies/OSD-924/image",
+          "Study Factor Name": "Spaceflight     Age",
+          "Study Assay Measurement Type": "transcription profiling",
+          "Project Type": "Spaceflight Study",
+          "Factor Value": "",
+          "Data Source Accession": "GSE295428",
+          "Project Title": "",
+          "Study Funding Agency": "The study was supported by the Saarland State Government (Az: WT/2-LFFP 20/13) and the National Institute for Aging (NIA K99/R00 AG066963). The computational resources used were financed by the DFG (469073465) and the development of the software pipeline was supported by the EU (Project 101057548-EPIVINF).",
+          "Study Protocol Description": "Rodent Research Reference Mission 1 (RRR-1) / Rodent Research-8 (RR-8) consisted of 40 BALB/cAnNTac females (8 used for this study) termed Flight which were sent on 12/5/2018 to the International Space Station (ISS), and a control group of 40 mice remained on Earth, termed Habitat Ground Control (HC). Furthermore, two age groups were used, younger (∼3 months) and older (∼8 months). All mouse work was completed with approval of the NASA Flight Animal Care and Use Committee (Protocol FLT-18-116). Mice were received following landing at Scripps Research Institute (09-0004, for animal receipt upon landing) and transported to Stanford University IACUC (WYS1591). Flight mice were housed at double density on launch and again during the return to earth. HC mice were housed to match, as closely as possible, conditions experienced by Flight mice. This included double density housing in identical Mouse Habitat Units and Transporters as used by NASA during launch for Flight mice, and matched temperature, humidity, and carbon dioxide levels (elevated on the ISS compared to Earth) based on actual flight environmental monitoring. All mice were adapted to NASA Nutrient Food Bars, four weeks prior to launch, and bars were exchanged weekly. Mice had ad libitum access to both food and water. Mice had ad libitum access to both food and water. During the mission we encountered the following issues, altering the planned experimental design, or that must be considered upon interpretation of results. (1) Within 24h of the planned launch, mold was found on the food bars, affecting both Flight and HGC mice to an unknown degree. It is possible that the mice were able to eat around the mold. The late replacement of the food bars, now secured with double-sided tape instead of epoxy, caused the bars to free-float during launch and return. The bars of the HGC mice fell to the bottom of the cage. Although the Flight mice appeared healthy upon arrival to the ISS, this might have induced additional stress. Due to concerns about mold, as more was discovered aboard the ISS, the ISS Term mice were sacrificed after approximately 3 weeks of microgravity rather than the planned 8 weeks, and ground controls were sacrificed to match this new timeline.(2) Due to poor weather, the return of the Flight LAR mice was delayed and the mice spent 7 instead of the normal 2-3 days in double density housing. This housing is more confined (10 mice per cage side instead of the 5 in the normal habitat), video monitoring was not possible and food bars likely became unsecured and were free-floating. Conditions of the HGC mice were matched to these conditions, likely causing additional stress for both groups. Due to the weather, the Flight group likely experienced rough seas upon splashdown and shipping back to shore, which was not controlled for in the HGC group.     HC mice were shipped to Scripps Institute just prior to the return of the Flight mice so that all mice could be dissected together in matching conditions (+/- 1 day). The mice from the Flight group were returned alive to Earth on 1/14/2019 after 39.5 days on the ISS and collected 2-4 days after splashdown following functional assays at Scripps Research Institute. In this study, fresh organ samples were obtained and immediately processed from 8 live mice that arrived at Stanford University from Scripps Research Institute on 1/16/2019. Two mice each from the following groups were included: Flight 3mo, Flight 8mo, HC 3mo, HC 8mo. All four Flight mice were dissected on 1/16/2019 to minimize time spent outside of microgravity, and all four HC mice dissected on 1/17/2019. LAR mice were anesthetized with gas anesthesia and euthanized by means of cardiac puncture blood draw (exsanguination) and double thoracotomy.     All the tissues were processed as previously described (https://doi.org:10.1038/s41586-020-2496-1). Muscle cells collected from hindlimbs and forelimbs were prepared for FACS isolation as described96. In brief, muscles from each mouse were minced and digested in 10 ml 2 mg/ml collagenase II (Worthington LS004179) at 37 C for 1 hour with agitation followed by a second digestion with 1,000 Units of collagenase II and 11 Units of dispase (Thermo Fisher 17105-041) for 30 minutes. The digested tissues were then passed through a 20-gauge needle to release mononucleated cells. The resulting cell suspension was filtered with a 40 µm strainer (Falcon cat.\n352340) and pelleted. Cells were then resuspended in 0.5 ml wash medium (Ham's F-10 (Thermo Fisher SH30025.01) supplemented with 10% (vol/vol) horse serum (Invitrogen 16050-122) and 1× penicillin-streptomycin (Omega Scientific PS-20)) and stained with 1:1000 CD31-APC (BioLegend 102510), 1:1000 CD45-FITC (BioLegend 103108), 1:250 Ly-6A/E-PB (BioLegend 108120), and 1:100 CD106-PE/Cy7 (BioLegend 105720) at 4C for 30 minutes. Cells were washed once in wash medium before FACS isolation. Cells were sorted into 4 bins: satellite cells (Vcam1+, Sca1-, CD31-, CD45-), mesenchymal progenitors (Sca1+, CD31-, CD45-), endothelial cells CD31+, CD45-), and immune cells (CD45+).     Cells were loaded in each channel with a target output of up to 5,000 cells per sample, though fewer cells were captured for small sample types. scRNA-seq libraries were constructed following the 10x Genomics protocol using the GemCode Single-Cell 3’ Gel Bead and Library v3 Kit. All reactions were performed in a Biorad C1000 Touch Thermal Cycler with a 96-Deep Well Reaction Module. Twelve cycles were used for cDNA amplification and sample index PCR. Amplified cDNA and final libraries were evaluated on a Fragment Analyzer using a High Sensitivity NGS Analysis Kit (Advanced Analytical). Library preparation was performed one organ type at a time, in sets of eight samples. Within each organ set, cDNA was normalized, and 13–20 PCR cycles were run depending on cDNA amount. The average fragment length of 10x cDNA libraries was quantified on a Fragment Analyzer (AATI) and by qPCR using the Kapa Library Quantification Kit for Illumina. Each library was diluted to 4 nM, and equal volumes were pooled for each sequencing run.     Sequencing was performed on an Illumina NovaSeq 6000 platform using 100-cycle run kits, with 28 bases for Read 1, 8 bases for Index 1, and 91 bases for Read 2 (Illumina 20012862). A PhiX control library was spiked in at 0.2–1%.     Fastq format was checked with fastq_utils v0.25.1. Quality assessment of reads was performed with FastQC v0.11.9 and reports were combined with MultiQC v1.12. rRNA percentages of reads were estimated with the 'hts_SeqScreener' program of htstream v1.3.3 screened against a fasta file of Mus-musculus rRNA sequences retrieved from NCBI on 09-May-2025.",
+          "Experiment Platform": "Rodent Flight Hardware (Transporter and Habitat)",
+          "Characteristics": "",
+          "Study Grant Number": "",
+          "Study Publication Author List": "",
+          "Project Link": "",
+          "Study Publication Title": "",
+          "Managing NASA Center": "",
+          "Study Description": "Spaceflights significantly impacts astronaut health, causing muscle atrophy, bone loss, cardiovascular deconditioning and immune system dysregulation, especially during long missions. To explore molecular changes, we generated a single-cell RNA sequencing dataset, of 216 samples from 28 mouse organs and tissues under spaceflight and control conditions. Since spaceflight effects closely resemble aspects of aging, we included two age groups (3 and 8 months) to assess age-related influences. Our data revealed that spaceflight drives age-independent systemic changes, primarily affecting tissue remodeling and alterations in cytoskeleton, membrane and extracellular matrix (ECM), particularly in endothelial cells. In contrast, aging has a weaker impact, mainly altering immune regulation in an age-dependent manner. These findings suggest that cytoskeletal and ECM changes may contribute to immune Dysregulation.",
+          "organism": "Mus musculus",
+          "Data Source Type": "cgene",
+          "ESA Acronym": ""
+        },
+        "highlight": {
+          "all": [
+            "Spaceflight induces systemic effects on extracellular matrix and <em>immune</em> system in different age-stages",
+            "CD31-, CD45-), mesenchymal progenitors (Sca1+, CD31-, CD45-), endothelial cells CD31+, CD45-), and <em>immune</em>",
+            "In contrast, aging has a weaker impact, mainly altering <em>immune</em> regulation in an age-dependent manner.",
+            "These findings suggest that cytoskeletal and ECM changes may contribute to <em>immune</em> Dysregulation.",
+            "<em>cgene</em>"
+          ]
+        }
+      }
+    ]
+  }
+}

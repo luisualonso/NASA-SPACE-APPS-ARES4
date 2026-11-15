@@ -1,0 +1,10 @@
+{
+  "lugar": "Estación Espacial Internacional (instrumento DosTel)",
+  "unidad": "µGy/hora",
+  "promedio": 5.858,
+  "maximo": 12.616,
+  "mediciones": 180,
+  "texto_nino": "",
+  "fuente": "NASA OSDR RadLab",
+  "url": "https://visualization.osdr.nasa.gov/radlab/gui/data-api/"
+}

@@ -1,0 +1,2265 @@
+[
+  {
+    "id": "2024-05-01T00:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-01",
+    "velocidad_km_s": 643.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30376/-1"
+  },
+  {
+    "id": "2024-05-01T06:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-01",
+    "velocidad_km_s": 794.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30362/-1"
+  },
+  {
+    "id": "2024-05-01T11:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-01",
+    "velocidad_km_s": 569.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30369/-1"
+  },
+  {
+    "id": "2024-05-01T12:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-01",
+    "velocidad_km_s": 524.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30371/-1"
+  },
+  {
+    "id": "2024-05-01T17:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-01",
+    "velocidad_km_s": 464.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30382/-1"
+  },
+  {
+    "id": "2024-05-01T23:16:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-01",
+    "velocidad_km_s": 353.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30384/-1"
+  },
+  {
+    "id": "2024-05-02T03:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-02",
+    "velocidad_km_s": 716.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30391/-1"
+  },
+  {
+    "id": "2024-05-02T05:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-02",
+    "velocidad_km_s": 325.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30380/-1"
+  },
+  {
+    "id": "2024-05-02T10:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-02",
+    "velocidad_km_s": 474.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30393/-1"
+  },
+  {
+    "id": "2024-05-02T15:00:00-GST-001",
+    "tipo": "GST",
+    "fecha": "2024-05-02",
+    "kp_max": 6.67,
+    "intensidad": "media",
+    "efecto_juego": {
+      "comunicacion_bloqueada_dias": 1
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/GST/30399/-1"
+  },
+  {
+    "id": "2024-05-03T02:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-03",
+    "velocidad_km_s": 841.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30409/-1"
+  },
+  {
+    "id": "2024-05-03T09:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-03",
+    "velocidad_km_s": 652.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30415/-1"
+  },
+  {
+    "id": "2024-05-03T21:17:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-03",
+    "velocidad_km_s": 548.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30443/-1"
+  },
+  {
+    "id": "2024-05-03T21:28:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-03",
+    "velocidad_km_s": 509.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30445/-1"
+  },
+  {
+    "id": "2024-05-04T01:53:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-04",
+    "velocidad_km_s": 648.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30434/-1"
+  },
+  {
+    "id": "2024-05-04T06:53:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-04",
+    "velocidad_km_s": 863.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30437/-1"
+  },
+  {
+    "id": "2024-05-04T13:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-04",
+    "velocidad_km_s": 545.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30546/-1"
+  },
+  {
+    "id": "2024-05-04T16:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-04",
+    "velocidad_km_s": 428.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30544/-1"
+  },
+  {
+    "id": "2024-05-05T02:09:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-05",
+    "velocidad_km_s": 820.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30472/-1"
+  },
+  {
+    "id": "2024-05-05T03:38:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-05",
+    "velocidad_km_s": 572.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30474/-1"
+  },
+  {
+    "id": "2024-05-05T06:38:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-05",
+    "velocidad_km_s": 495.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30476/-1"
+  },
+  {
+    "id": "2024-05-05T08:09:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-05",
+    "velocidad_km_s": 614.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30478/-1"
+  },
+  {
+    "id": "2024-05-05T13:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-05",
+    "velocidad_km_s": 533.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30542/-1"
+  },
+  {
+    "id": "2024-05-05T15:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-05",
+    "velocidad_km_s": 478.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30507/-1"
+  },
+  {
+    "id": "2024-05-05T17:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-05",
+    "velocidad_km_s": 756.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30496/-1"
+  },
+  {
+    "id": "2024-05-05T23:27:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-05",
+    "velocidad_km_s": 344.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30505/-1"
+  },
+  {
+    "id": "2024-05-06T07:38:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-06",
+    "velocidad_km_s": 780.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30491/-1"
+  },
+  {
+    "id": "2024-05-07T02:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-07",
+    "velocidad_km_s": 628.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30528/-1"
+  },
+  {
+    "id": "2024-05-07T03:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-07",
+    "velocidad_km_s": 381.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30510/-1"
+  },
+  {
+    "id": "2024-05-07T05:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-07",
+    "velocidad_km_s": 430.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30522/-1"
+  },
+  {
+    "id": "2024-05-07T07:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-07",
+    "velocidad_km_s": 423.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30526/-1"
+  },
+  {
+    "id": "2024-05-07T16:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-07",
+    "velocidad_km_s": 306.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30580/-1"
+  },
+  {
+    "id": "2024-05-07T19:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-07",
+    "velocidad_km_s": 282.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30583/-1"
+  },
+  {
+    "id": "2024-05-08T05:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-08",
+    "velocidad_km_s": 870.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30589/-1"
+  },
+  {
+    "id": "2024-05-08T12:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-08",
+    "velocidad_km_s": 776.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30564/-1"
+  },
+  {
+    "id": "2024-05-08T19:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-08",
+    "velocidad_km_s": 828.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30612/-1"
+  },
+  {
+    "id": "2024-05-08T22:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-08",
+    "velocidad_km_s": 1257.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30640/-1"
+  },
+  {
+    "id": "2024-05-09T09:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-09",
+    "velocidad_km_s": 1330.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30619/-1"
+  },
+  {
+    "id": "2024-05-09T18:23:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-09",
+    "velocidad_km_s": 895.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30655/-1"
+  },
+  {
+    "id": "2024-05-09T13:59:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-09",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30609/-1"
+  },
+  {
+    "id": "2024-05-09T14:25:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-09",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30610/-1"
+  },
+  {
+    "id": "2024-05-10T02:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-10",
+    "velocidad_km_s": 232.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30788/-1"
+  },
+  {
+    "id": "2024-05-10T07:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-10",
+    "velocidad_km_s": 1018.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30670/-1"
+  },
+  {
+    "id": "2024-05-10T16:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-10",
+    "velocidad_km_s": 393.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30786/-1"
+  },
+  {
+    "id": "2024-05-10T21:17:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-10",
+    "velocidad_km_s": 678.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30751/-1"
+  },
+  {
+    "id": "2024-05-10T21:28:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-10",
+    "velocidad_km_s": 717.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30753/-1"
+  },
+  {
+    "id": "2024-05-10T23:13:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-10",
+    "velocidad_km_s": 445.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30784/-1"
+  },
+  {
+    "id": "2024-05-10T12:59:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-10",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30675/-1"
+  },
+  {
+    "id": "2024-05-10T13:02:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-10",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30676/-1"
+  },
+  {
+    "id": "2024-05-10T13:35:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-10",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30677/-1"
+  },
+  {
+    "id": "2024-05-10T14:50:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-10",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30684/-1"
+  },
+  {
+    "id": "2024-05-10T15:00:00-GST-001",
+    "tipo": "GST",
+    "fecha": "2024-05-10",
+    "kp_max": 9.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "comunicacion_bloqueada_dias": 1
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/GST/30693/-1"
+  },
+  {
+    "id": "2024-05-11T01:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-11",
+    "velocidad_km_s": 1372.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30719/-1"
+  },
+  {
+    "id": "2024-05-11T02:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-11",
+    "velocidad_km_s": 485.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30744/-1"
+  },
+  {
+    "id": "2024-05-11T03:12:00-CME-002",
+    "tipo": "CME",
+    "fecha": "2024-05-11",
+    "velocidad_km_s": 1032.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30793/-1"
+  },
+  {
+    "id": "2024-05-11T16:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-11",
+    "velocidad_km_s": 1088.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30742/-1"
+  },
+  {
+    "id": "2024-05-11T18:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-11",
+    "velocidad_km_s": 268.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30765/-1"
+  },
+  {
+    "id": "2024-05-11T02:10:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-11",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30714/-1"
+  },
+  {
+    "id": "2024-05-11T04:07:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-11",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30717/-1"
+  },
+  {
+    "id": "2024-05-12T02:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-12",
+    "velocidad_km_s": 624.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30779/-1"
+  },
+  {
+    "id": "2024-05-12T03:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-12",
+    "velocidad_km_s": 602.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30755/-1"
+  },
+  {
+    "id": "2024-05-12T13:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-12",
+    "velocidad_km_s": 281.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30830/-1"
+  },
+  {
+    "id": "2024-05-12T21:00:00-GST-001",
+    "tipo": "GST",
+    "fecha": "2024-05-12",
+    "kp_max": 6.33,
+    "intensidad": "media",
+    "efecto_juego": {
+      "comunicacion_bloqueada_dias": 1
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/GST/30798/-1"
+  },
+  {
+    "id": "2024-05-13T09:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-13",
+    "velocidad_km_s": 1456.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30814/-1"
+  },
+  {
+    "id": "2024-05-13T12:44:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-13",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30811/-1"
+  },
+  {
+    "id": "2024-05-13T13:10:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-13",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30807/-1"
+  },
+  {
+    "id": "2024-05-13T14:00:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-13",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30817/-1"
+  },
+  {
+    "id": "2024-05-13T16:19:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-13",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30820/-1"
+  },
+  {
+    "id": "2024-05-13T18:07:00-SEP-001",
+    "tipo": "SEP",
+    "fecha": "2024-05-13",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30824/-1"
+  },
+  {
+    "id": "2024-05-13T18:07:00-SEP-002",
+    "tipo": "SEP",
+    "fecha": "2024-05-13",
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -15,
+      "dias_aviso": 0
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/SEP/30825/-1"
+  },
+  {
+    "id": "2024-05-14T02:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-14",
+    "velocidad_km_s": 502.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30844/-1"
+  },
+  {
+    "id": "2024-05-14T04:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-14",
+    "velocidad_km_s": 567.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30860/-1"
+  },
+  {
+    "id": "2024-05-14T10:09:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-14",
+    "velocidad_km_s": 744.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30856/-1"
+  },
+  {
+    "id": "2024-05-14T10:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-14",
+    "velocidad_km_s": 763.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30915/-1"
+  },
+  {
+    "id": "2024-05-14T13:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-14",
+    "velocidad_km_s": 676.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30841/-1"
+  },
+  {
+    "id": "2024-05-14T17:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-14",
+    "velocidad_km_s": 2119.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30867/-1"
+  },
+  {
+    "id": "2024-05-14T17:30:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-14",
+    "velocidad_km_s": 1199.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30873/-1"
+  },
+  {
+    "id": "2024-05-14T17:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-14",
+    "velocidad_km_s": 1292.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30883/-1"
+  },
+  {
+    "id": "2024-05-15T08:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-15",
+    "velocidad_km_s": 1766.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30891/-1"
+  },
+  {
+    "id": "2024-05-15T08:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-15",
+    "velocidad_km_s": 1082.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30894/-1"
+  },
+  {
+    "id": "2024-05-15T10:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-15",
+    "velocidad_km_s": 1205.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30913/-1"
+  },
+  {
+    "id": "2024-05-15T10:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-15",
+    "velocidad_km_s": 805.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30940/-1"
+  },
+  {
+    "id": "2024-05-15T10:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-15",
+    "velocidad_km_s": 1162.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30920/-1"
+  },
+  {
+    "id": "2024-05-15T14:53:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-15",
+    "velocidad_km_s": 1570.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30948/-1"
+  },
+  {
+    "id": "2024-05-15T17:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-15",
+    "velocidad_km_s": 732.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30968/-1"
+  },
+  {
+    "id": "2024-05-15T21:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-15",
+    "velocidad_km_s": 1269.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30923/-1"
+  },
+  {
+    "id": "2024-05-16T01:25:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-16",
+    "velocidad_km_s": 1103.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30955/-1"
+  },
+  {
+    "id": "2024-05-16T04:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-16",
+    "velocidad_km_s": 773.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30957/-1"
+  },
+  {
+    "id": "2024-05-16T06:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-16",
+    "velocidad_km_s": 1110.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30959/-1"
+  },
+  {
+    "id": "2024-05-16T08:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-16",
+    "velocidad_km_s": 1298.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30970/-1"
+  },
+  {
+    "id": "2024-05-16T09:09:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-16",
+    "velocidad_km_s": 374.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30972/-1"
+  },
+  {
+    "id": "2024-05-16T13:38:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-16",
+    "velocidad_km_s": 1081.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30936/-1"
+  },
+  {
+    "id": "2024-05-16T18:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-16",
+    "velocidad_km_s": 767.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31002/-1"
+  },
+  {
+    "id": "2024-05-16T23:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-16",
+    "velocidad_km_s": 569.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31000/-1"
+  },
+  {
+    "id": "2024-05-16T06:00:00-GST-001",
+    "tipo": "GST",
+    "fecha": "2024-05-16",
+    "kp_max": 6.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "comunicacion_bloqueada_dias": 1
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/GST/30929/-1"
+  },
+  {
+    "id": "2024-05-17T00:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-17",
+    "velocidad_km_s": 679.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30980/-1"
+  },
+  {
+    "id": "2024-05-17T03:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-17",
+    "velocidad_km_s": 545.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30998/-1"
+  },
+  {
+    "id": "2024-05-17T04:17:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-17",
+    "velocidad_km_s": 586.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30982/-1"
+  },
+  {
+    "id": "2024-05-17T04:28:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-17",
+    "velocidad_km_s": 854.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30989/-1"
+  },
+  {
+    "id": "2024-05-17T12:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-17",
+    "velocidad_km_s": 1134.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30974/-1"
+  },
+  {
+    "id": "2024-05-17T13:25:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-17",
+    "velocidad_km_s": 465.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/30986/-1"
+  },
+  {
+    "id": "2024-05-17T18:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-17",
+    "velocidad_km_s": 942.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31012/-1"
+  },
+  {
+    "id": "2024-05-17T21:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-17",
+    "velocidad_km_s": 1129.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31005/-1"
+  },
+  {
+    "id": "2024-05-17T18:00:00-GST-001",
+    "tipo": "GST",
+    "fecha": "2024-05-17",
+    "kp_max": 6.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "comunicacion_bloqueada_dias": 1
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/GST/30993/-1"
+  },
+  {
+    "id": "2024-05-18T06:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-18",
+    "velocidad_km_s": 341.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31010/-1"
+  },
+  {
+    "id": "2024-05-18T13:38:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-18",
+    "velocidad_km_s": 1585.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31018/-1"
+  },
+  {
+    "id": "2024-05-18T19:38:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-18",
+    "velocidad_km_s": 375.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31028/-1"
+  },
+  {
+    "id": "2024-05-19T01:23:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-19",
+    "velocidad_km_s": 426.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31022/-1"
+  },
+  {
+    "id": "2024-05-19T03:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-19",
+    "velocidad_km_s": 304.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31030/-1"
+  },
+  {
+    "id": "2024-05-19T14:23:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-19",
+    "velocidad_km_s": 524.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31032/-1"
+  },
+  {
+    "id": "2024-05-19T16:23:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-19",
+    "velocidad_km_s": 327.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31051/-1"
+  },
+  {
+    "id": "2024-05-19T16:53:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-19",
+    "velocidad_km_s": 456.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31044/-1"
+  },
+  {
+    "id": "2024-05-19T17:09:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-19",
+    "velocidad_km_s": 317.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31046/-1"
+  },
+  {
+    "id": "2024-05-19T19:09:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-19",
+    "velocidad_km_s": 584.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31042/-1"
+  },
+  {
+    "id": "2024-05-20T05:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-20",
+    "velocidad_km_s": 2678.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31034/-1"
+  },
+  {
+    "id": "2024-05-20T20:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-20",
+    "velocidad_km_s": 1031.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31055/-1"
+  },
+  {
+    "id": "2024-05-20T21:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-20",
+    "velocidad_km_s": 654.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31060/-1"
+  },
+  {
+    "id": "2024-05-21T08:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-21",
+    "velocidad_km_s": 481.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31057/-1"
+  },
+  {
+    "id": "2024-05-21T13:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-21",
+    "velocidad_km_s": 660.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31065/-1"
+  },
+  {
+    "id": "2024-05-21T14:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-21",
+    "velocidad_km_s": 531.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31075/-1"
+  },
+  {
+    "id": "2024-05-21T20:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-21",
+    "velocidad_km_s": 345.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31079/-1"
+  },
+  {
+    "id": "2024-05-21T20:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-21",
+    "velocidad_km_s": 522.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31077/-1"
+  },
+  {
+    "id": "2024-05-22T03:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-22",
+    "velocidad_km_s": 306.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31141/-1"
+  },
+  {
+    "id": "2024-05-22T04:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-22",
+    "velocidad_km_s": 429.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31082/-1"
+  },
+  {
+    "id": "2024-05-22T11:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-22",
+    "velocidad_km_s": 488.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31086/-1"
+  },
+  {
+    "id": "2024-05-22T17:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-22",
+    "velocidad_km_s": 492.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31112/-1"
+  },
+  {
+    "id": "2024-05-23T01:25:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-23",
+    "velocidad_km_s": 469.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31092/-1"
+  },
+  {
+    "id": "2024-05-23T03:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-23",
+    "velocidad_km_s": 455.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31143/-1"
+  },
+  {
+    "id": "2024-05-23T04:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-23",
+    "velocidad_km_s": 507.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31104/-1"
+  },
+  {
+    "id": "2024-05-23T06:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-23",
+    "velocidad_km_s": 649.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31100/-1"
+  },
+  {
+    "id": "2024-05-23T07:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-23",
+    "velocidad_km_s": 274.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31098/-1"
+  },
+  {
+    "id": "2024-05-23T10:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-23",
+    "velocidad_km_s": 337.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31106/-1"
+  },
+  {
+    "id": "2024-05-23T13:25:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-23",
+    "velocidad_km_s": 512.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31108/-1"
+  },
+  {
+    "id": "2024-05-23T17:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-23",
+    "velocidad_km_s": 342.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31135/-1"
+  },
+  {
+    "id": "2024-05-23T22:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-23",
+    "velocidad_km_s": 943.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31133/-1"
+  },
+  {
+    "id": "2024-05-24T03:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-24",
+    "velocidad_km_s": 521.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31131/-1"
+  },
+  {
+    "id": "2024-05-24T05:00:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-24",
+    "velocidad_km_s": 368.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31125/-1"
+  },
+  {
+    "id": "2024-05-24T07:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-24",
+    "velocidad_km_s": 360.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31127/-1"
+  },
+  {
+    "id": "2024-05-24T08:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-24",
+    "velocidad_km_s": 374.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31129/-1"
+  },
+  {
+    "id": "2024-05-24T10:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-24",
+    "velocidad_km_s": 289.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31123/-1"
+  },
+  {
+    "id": "2024-05-24T12:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-24",
+    "velocidad_km_s": 529.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31121/-1"
+  },
+  {
+    "id": "2024-05-24T13:25:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-24",
+    "velocidad_km_s": 718.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31119/-1"
+  },
+  {
+    "id": "2024-05-24T20:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-24",
+    "velocidad_km_s": 756.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31147/-1"
+  },
+  {
+    "id": "2024-05-25T17:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-25",
+    "velocidad_km_s": 652.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31155/-1"
+  },
+  {
+    "id": "2024-05-26T17:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-26",
+    "velocidad_km_s": 435.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31170/-1"
+  },
+  {
+    "id": "2024-05-27T07:23:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-27",
+    "velocidad_km_s": 1220.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31161/-1"
+  },
+  {
+    "id": "2024-05-27T20:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-27",
+    "velocidad_km_s": 262.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31174/-1"
+  },
+  {
+    "id": "2024-05-28T05:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-28",
+    "velocidad_km_s": 755.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31176/-1"
+  },
+  {
+    "id": "2024-05-28T19:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-28",
+    "velocidad_km_s": 976.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31191/-1"
+  },
+  {
+    "id": "2024-05-28T23:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-28",
+    "velocidad_km_s": 607.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31195/-1"
+  },
+  {
+    "id": "2024-05-29T01:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-29",
+    "velocidad_km_s": 853.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31204/-1"
+  },
+  {
+    "id": "2024-05-29T02:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-29",
+    "velocidad_km_s": 791.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31210/-1"
+  },
+  {
+    "id": "2024-05-29T05:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-29",
+    "velocidad_km_s": 310.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31189/-1"
+  },
+  {
+    "id": "2024-05-29T14:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-29",
+    "velocidad_km_s": 1033.0,
+    "intensidad": "alta",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31200/-1"
+  },
+  {
+    "id": "2024-05-29T17:36:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-29",
+    "velocidad_km_s": 723.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31220/-1"
+  },
+  {
+    "id": "2024-05-29T18:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-29",
+    "velocidad_km_s": 302.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31224/-1"
+  },
+  {
+    "id": "2024-05-29T21:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-29",
+    "velocidad_km_s": 541.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31232/-1"
+  },
+  {
+    "id": "2024-05-29T23:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-29",
+    "velocidad_km_s": 579.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31230/-1"
+  },
+  {
+    "id": "2024-05-30T01:25:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-30",
+    "velocidad_km_s": 332.0,
+    "intensidad": "baja",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31228/-1"
+  },
+  {
+    "id": "2024-05-30T03:48:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-30",
+    "velocidad_km_s": 561.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31226/-1"
+  },
+  {
+    "id": "2024-05-30T09:24:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-30",
+    "velocidad_km_s": 750.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31217/-1"
+  },
+  {
+    "id": "2024-05-30T21:12:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-30",
+    "velocidad_km_s": 571.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31243/-1"
+  },
+  {
+    "id": "2024-05-31T04:17:00-CME-001",
+    "tipo": "CME",
+    "fecha": "2024-05-31",
+    "velocidad_km_s": 817.0,
+    "intensidad": "media",
+    "efecto_juego": {
+      "salud": -10,
+      "dias_aviso": 2
+    },
+    "texto_nino": "",
+    "fuente": "NASA DONKI (CCMC)",
+    "url": "https://ccmc.gsfc.nasa.gov/DONKI/view/CME/31245/-1"
+  }
+]
