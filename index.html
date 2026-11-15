@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base Artemis Junior</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 Base Artemis Junior</h1>
+    <div class="info">
+      <span id="sitio"></span> · <strong id="dia"></strong>
+    </div>
+    <nav>
+      <button id="btn-luna">Misión Luna</button>
+      <button id="btn-marte">Misión Marte</button>
+      <button id="btn-datos">Datos usados</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Estado de la base</h2>
+      <div class="recurso"><span>🫁 Aire y agua</span><div class="barra"><div id="b-soporte" class="relleno"></div></div><b id="n-soporte"></b></div>
+      <div class="recurso"><span>🥕 Comida</span><div class="barra"><div id="b-comida" class="relleno"></div></div><b id="n-comida"></b></div>
+      <div class="recurso"><span>❤️ Salud</span><div class="barra"><div id="b-salud" class="relleno"></div></div><b id="n-salud"></b></div>
+      <p id="ciencia"></p>
+      <p><span id="bateria"></span> · <span id="antena"></span></p>
+      <p id="alerta" class="alerta"></p>
+    </section>
+
+    <section class="panel">
+      <h2>Reparte la energía</h2>
+      <p id="energia" class="energia"></p>
+      <label>🫁 Soporte vital <input id="r-soporte" type="range" min="0" max="10" value="0"><b id="v-soporte">0</b></label>
+      <label>🌱 Invernadero <input id="r-invernadero" type="range" min="0" max="10" value="0"><b id="v-invernadero">0</b></label>
+      <label>🛡️ Blindaje <input id="r-blindaje" type="range" min="0" max="10" value="0"><b id="v-blindaje">0</b></label>
+      <label>🔬 Investigación <input id="r-investigacion" type="range" min="0" max="10" value="0"><b id="v-investigacion">0</b></label>
+      <div class="botones">
+        <button id="btn-consejo">📡 Pedir consejo</button>
+        <button id="btn-terminar" class="principal">🌙 Terminar el día</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Bitácora</h2>
+      <div id="evento" class="evento" hidden></div>
+      <div id="tarjeta" class="tarjeta" hidden></div>
+      <div id="mensajes" class="mensajes"></div>
+    </section>
+  </main>
+
+  <div id="fin" class="modal" hidden>
+    <div class="caja">
+      <h2 id="fin-titulo"></h2>
+      <p id="fin-causa"></p>
+      <button id="btn-reintentar" class="principal">Intentar de nuevo</button>
+    </div>
+  </div>
+
+  <div id="datos" class="modal" hidden>
+    <div class="caja">
+      <h2>Datos reales de la NASA usados en este juego</h2>
+      <p>Las fechas y tipos de eventos solares son reales (NASA DONKI). Los estudios vienen de NASA OSDR.
+         Los números del juego (cuánta energía, cuánto daño) están ajustados para poder jugar.</p>
+      <ul id="lista-fuentes"></ul>
+      <button id="btn-cerrar-datos">Cerrar</button>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

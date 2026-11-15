@@ -1,15 +1,3 @@
-"""
-Descarga los datos de la NASA para "Base Artemis Junior" y los deja en data/crudo/.
-Uso:
-    pip install requests
-    set NASA_API_KEY=tu_llave        (Windows)   |   export NASA_API_KEY=tu_llave  (Mac/Linux)
-    python descargar_datos.py
-
-Genera:
-    data/crudo/*.json        respuestas tal cual de cada API (no se editan)
-    data/fuentes.json        lista de fuentes: URL (sin llave), fecha de consulta, archivo
-    data/crudo/donki_resumen.csv   tabla corta de eventos para elegir cuáles usar en el juego
-"""
 import csv
 import json
 import os
