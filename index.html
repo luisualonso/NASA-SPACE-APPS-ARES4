@@ -3,72 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Base Artemis Junior</title>
+  <title>Misión Ares: Supervivencia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>🚀 Base Artemis Junior</h1>
-    <div class="info">
-      <span id="sitio"></span> · <strong id="dia"></strong>
+  <!-- Pantalla de inicio: los botones están alineados sobre el menú dibujado -->
+  <section id="menu">
+    <div class="menu-marco">
+      <div class="menu-placa">SUPERVIVENCIA</div>
+      <nav class="menu-botones">
+        <button id="m-jugar" class="menu-btn">JUGAR</button>
+        <button id="m-sonido" class="menu-btn">SONIDO: SÍ</button>
+        <button id="m-datos" class="menu-btn">DATOS NASA</button>
+        <button id="m-creditos" class="menu-btn">CRÉDITOS</button>
+      </nav>
     </div>
-    <nav>
-      <button id="btn-luna">Misión Luna</button>
-      <button id="btn-marte">Misión Marte</button>
-      <button id="btn-datos">Datos usados</button>
-    </nav>
-  </header>
+  </section>
 
-  <main>
-    <section class="panel">
-      <h2>Estado de la base</h2>
-      <div class="recurso"><span>🫁 Aire y agua</span><div class="barra"><div id="b-soporte" class="relleno"></div></div><b id="n-soporte"></b></div>
-      <div class="recurso"><span>🥕 Comida</span><div class="barra"><div id="b-comida" class="relleno"></div></div><b id="n-comida"></b></div>
-      <div class="recurso"><span>❤️ Salud</span><div class="barra"><div id="b-salud" class="relleno"></div></div><b id="n-salud"></b></div>
-      <p id="ciencia"></p>
-      <p><span id="bateria"></span> · <span id="antena"></span></p>
-      <p id="alerta" class="alerta"></p>
-    </section>
-
-    <section class="panel">
-      <h2>Reparte la energía</h2>
-      <p id="energia" class="energia"></p>
-      <label>🫁 Soporte vital <input id="r-soporte" type="range" min="0" max="10" value="0"><b id="v-soporte">0</b></label>
-      <label>🌱 Invernadero <input id="r-invernadero" type="range" min="0" max="10" value="0"><b id="v-invernadero">0</b></label>
-      <label>🛡️ Blindaje <input id="r-blindaje" type="range" min="0" max="10" value="0"><b id="v-blindaje">0</b></label>
-      <label>🔬 Investigación <input id="r-investigacion" type="range" min="0" max="10" value="0"><b id="v-investigacion">0</b></label>
-      <div class="botones">
-        <button id="btn-consejo">📡 Pedir consejo</button>
-        <button id="btn-terminar" class="principal">🌙 Terminar el día</button>
+  <section id="juego" hidden>
+    <header>
+      <h1>MISIÓN ARES<span>: SUPERVIVENCIA</span></h1>
+      <div class="info"><span id="sitio"></span><strong id="dia"></strong></div>
+      <button id="btn-sonido" class="chico" title="Sonido">🔊</button>
+      <button id="btn-datos" class="chico">DATOS NASA</button>
+    </header>
+    <main>
+      <div class="zona-mapa">
+        <canvas id="mapa"></canvas>
+        <div id="toast" class="toast" hidden><b id="toast-titulo"></b><span id="toast-texto"></span></div>
+        <p id="objetivo" class="objetivo"></p>
       </div>
-    </section>
+      <aside>
+        <div class="stats">
+          <div class="stats-dentro" id="hud"></div>
+        </div>
+        <div class="bitacora">
+          <h2>BITÁCORA</h2>
+          <div id="mensajes" class="mensajes"></div>
+        </div>
+      </aside>
+    </main>
+  </section>
 
-    <section class="panel">
-      <h2>Bitácora</h2>
-      <div id="evento" class="evento" hidden></div>
-      <div id="tarjeta" class="tarjeta" hidden></div>
-      <div id="mensajes" class="mensajes"></div>
-    </section>
-  </main>
-
-  <div id="fin" class="modal" hidden>
-    <div class="caja">
-      <h2 id="fin-titulo"></h2>
-      <p id="fin-causa"></p>
-      <button id="btn-reintentar" class="principal">Intentar de nuevo</button>
+  <div id="modal" class="modal" hidden>
+    <div class="caja" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+      <h2 id="modal-titulo"></h2>
+      <div class="caja-dentro">
+        <div id="modal-cuerpo"></div>
+        <div id="modal-botones" class="botones"></div>
+      </div>
     </div>
   </div>
 
-  <div id="datos" class="modal" hidden>
-    <div class="caja">
-      <h2>Datos reales de la NASA usados en este juego</h2>
-      <p>Las fechas y tipos de eventos solares son reales (NASA DONKI). Los estudios vienen de NASA OSDR.
-         Los números del juego (cuánta energía, cuánto daño) están ajustados para poder jugar.</p>
-      <ul id="lista-fuentes"></ul>
-      <button id="btn-cerrar-datos">Cerrar</button>
-    </div>
-  </div>
-
+  <canvas id="transicion" hidden></canvas>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>

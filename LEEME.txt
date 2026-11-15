@@ -1,0 +1,21 @@
+MISIÓN ARES: SUPERVIVENCIA
+==========================
+Cómo instalar
+1. Descomprime este zip DENTRO de tu carpeta Project y acepta reemplazar archivos.
+   No trae data/curado/donki.json ni osdr.json: se usan los tuyos.
+2. Abre index.html con Live Server (clic derecho > Open with Live Server).
+
+Controles
+  W A S D o flechas: caminar          Clic: caminar hasta ese punto o módulo
+  E o ESPACIO: agarrar/soltar cajas, usar módulos, aceptar
+  A / D dentro de un módulo: quitar o agregar energía      ESC: cerrar ventana
+
+Dónde cambiar cosas
+  js/estado.js    números del juego (energía, consumos, daño)
+  js/misiones.js  misiones, posiciones de módulos y cajas, zonas caminables
+  js/textos.js    textos para niños de los estudios OSDR y datos de cada módulo
+  js/retro.js     retroalimentación del reporte diario y del fin de misión
+  img/            gráficos (optimizados a partir de tus originales)
+
+Las fuentes de letra (Press Start 2P y VT323) se cargan de Google Fonts: se necesita internet.
+Sin internet el juego funciona con una letra de respaldo.

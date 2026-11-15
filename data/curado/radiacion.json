@@ -6,5 +6,6 @@
   "mediciones": 180,
   "texto_nino": "",
   "fuente": "NASA OSDR RadLab",
-  "url": "https://visualization.osdr.nasa.gov/radlab/gui/data-api/"
+  "url": "https://visualization.osdr.nasa.gov/radlab/gui/data-api/",
+  "minimo": 1.7
 }

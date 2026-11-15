@@ -1,0 +1,10 @@
+Pon aquí los gráficos (PNG con fondo transparente, pixel art). Si falta alguno, el juego usa uno provisional.
+
+jugador.png      96x128  3 columnas (pasos) x 4 filas: abajo, izquierda, derecha, arriba. Cuadros de 32x32
+tripulante.png   96x128  igual que el jugador (opcional)
+piso.png         32x32   piso de la base lunar
+piso_marte.png   32x32   piso de la base en Marte
+pared.png        32x32
+solar.png, soporte.png, invernadero.png, refugio.png, laboratorio.png, antena.png, dormitorio.png   64x64 cada uno
+cohete.png       128x256 (opcional)
+oxigeno.png, comida.png, semillas.png, blindaje.png, bateria.png, instrumento.png   32x32 (íconos de carga)
